@@ -1,0 +1,19 @@
+{
+    "description": "Was created at:",
+    "time": "Uptime",
+    "RAM": "Memory",
+    "servers": "Servers",
+    "server": "Server",
+    "users": "Users",
+    "user": "User",
+    "commands": "Commands",
+    "command": "command",
+    "node": {
+        "on": "on"
+    },
+    "cache": "Cache",
+    "uptime": "Bot status in 30 days",
+    "version": "Version",
+    "updateStatus": "Bot Status",
+    "status": "Prepared to update"
+}

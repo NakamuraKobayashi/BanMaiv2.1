@@ -1,0 +1,9 @@
+{
+    "provideEquation": "Hãy đưa ra một phương trình",
+    "result": "Kết quả",
+    "somethingWrongs":"Hãy đưa phương trình hợp lệ | Vui lòng thử lại!",
+    "multiplication": "là nhân",
+    "division": "là chia",
+    "and": "và",
+    "plusAndMinus": "như bình thường"
+}

@@ -1,0 +1,14 @@
+{
+    "language": {
+        "message": "Chọn ngôn sử mà bạn muốn sử dụng",
+        "type": "Gõ",
+        "cancel": "hủy",
+        "stop": "để dừng quá trình đổi ngôn ngữ",
+        "list": "vi-vn, en-us,"
+    },
+    "time": {
+        "response": "Không có phản hồi trong thời gian chỉ định, hủy thay đổi ngôn ngữ",
+        "cancel": "Đã hũy quá trình thay đổi ngôn ngữ",
+        "invalid": "Ngôn ngữ này không được hỗ trợ hoặc không có sẵn"
+    }
+}

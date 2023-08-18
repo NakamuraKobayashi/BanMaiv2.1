@@ -1,0 +1,9 @@
+{
+    "missingPerms": "Thiếu quyền hạn - [Đính kèm tập tin]",
+    "firstTarget": "Bạn muốn đặt ai ở dưới?",
+    "secondTarget": "Bạn muốn đặt ai ở trên",
+    "cannotFindFirst": "Không thể tìm thấy dữ liệu của người dùng đầu tiên",
+    "cannotFindSecond": "Không thể tìm thấy dữ liệu của người dùng thứ hai",
+    "error": "U nu, đã có lỗi xảy ra",
+    "tryAgain": "Vui lòng thử lại sau!"
+}

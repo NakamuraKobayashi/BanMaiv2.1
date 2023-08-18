@@ -1,0 +1,14 @@
+{
+    "invalidUser": "Ei từ từ, cậu đang bảo tớ đang hack ai z?? cậu đã không đề cập một người dùng hoặc đã đề cập role.",
+    "hacking": "Đang hack",
+    "findingIP": "Đang tìm địa chỉ IP...",
+    "IPAddress": "ĐỊA CHỈ IP",
+    "sellInfomation": "Đang bán dữ liệu cho chính phủ...",
+    "ToSReport": "Đang báo cáo tài khoản Discord vi phạm ToS...",
+    "findingEmail": "Đang tìm địa chỉ Email...",
+    "EmailAddress": "ĐỊA CHỈ EMAIL",
+    "identityInfo": "Đang lấy thông tin CCCD...",
+    "medicalRecord": "Đang lấy dữ liệu hồ sơ y tế...",
+    "hackedSuccess": "Đã hack xong đối tượng",
+    "done": "Quá trình **hack** rất **thật** và **nguy hiểm** đã hoàn tất"
+}

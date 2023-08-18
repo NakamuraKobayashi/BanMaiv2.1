@@ -1,0 +1,7 @@
+{
+    "provideNewPrefix": "Pls provide a new prefix for the bot!",
+    "longerPrefix": "The new prefix you gimme is too long - 10 characters limit",
+    "already": "This Prefix is ​​the Bot's Current Prefix!",
+    "newPrefix": "New prefix has been set to",
+    "setBy": "Modified by"
+}

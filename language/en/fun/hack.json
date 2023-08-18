@@ -1,0 +1,14 @@
+{
+    "invalidUser": "waittt, who do you need to hack? you didn't mention a user or you mention a role.",
+    "hacking": "Hacking",
+    "findingIP": "Finding IP Address",
+    "IPAddress": "IP ADDRESS",
+    "sellInfomation": "Selling data to the government...",
+    "ToSReport": "Reporting Discord account for ToS violation...",
+    "findingEmail": "Finding Email Address...",
+    "EmailAddress": "EMAIL ADDRESS",
+    "identityInfo": "Retrieving citizen identification information...",
+    "medicalRecord": "Retrieving medical record data...",
+    "hackedSuccess": "Finished hacking",
+    "done": "The very **REAL** and **DANGEROUS HACKING** process is complete"
+}

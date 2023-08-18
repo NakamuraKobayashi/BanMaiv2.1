@@ -1,0 +1,22 @@
+{
+    "mentionUser": "Mention user you want to temporary ban!",
+    "notFound": "This user is not in this server",
+    "yourSelf": "You cannot Ban yourself",
+    "cannotBan": "Couldn't Ban this user",
+    "done": "Temporary ban timeout",
+    "tempbanHi": "Yauu, you have been temporary ban in",
+    "reason": "Reason:",
+    "noReason": "There is no reason or this is a mistake",
+    "time": "Ban duration:",
+    "banned": "Has been temporary ban",
+    "modLog": {
+        "moderation": "Command",
+        "user": "Temp Banned User",
+        "userID": "Temp Banned User ID",
+        "time": "Duration",
+        "by": "Banned by",
+        "reason": "Reason",
+        "noReason": "No reason",
+        "date": "Date"
+    }
+}

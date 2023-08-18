@@ -1,0 +1,17 @@
+{
+    "specifyName": "Hãy đưa ra tên một bộ anime",
+    "limitWords": "Độ dài giới hạn là 200 ký tự",
+    "searching": "Tớ đang tìm kiém thông tin cho bạn, vui lòng chờ xíu nha :3",
+    "engName": "Tên tiếng Anh",
+    "studio": "Studio sản xuất",
+    "series": "Series",
+    "status": "Tình trạng",
+    "premiereDate": "Ngày khởi chiếu",
+    "episode": "Số tập",
+    "duration": "Thời lượng",
+    "rank": "Top",
+    "genres": "Thể loại",
+    "rating": "Đánh giá",
+    "score": "Điểm",
+    "notFound": "Không tìm được anime theo từ khóa bạn chỉ định"
+}

@@ -1,0 +1,624 @@
+{
+  "commandsinfo": {
+    "sketchy-artist": {
+      "description": "Bắt đầu chơi Sketchy Artist",
+      "usage": "artist <không cần ghi hoặc ID kênh voice>"
+    },
+    "help" : {
+      "description": "Lệnh trợ giúp",
+      "usage": "help <danh mục | lệnh>"
+    },
+    "awkword": {
+      "description": "Bắt đầu chơi Awkword",
+      "usage": "awkword <không cần ghi hoặc ID kênh voice>"
+    },
+    "betrayal.io": {
+      "description": "Bắt đầu chơi Betrayal.io",
+      "usage": "betrayal <không cần ghi hoặc ID kênh voice>"
+    },
+    "checkers-in-the-park": {
+      "description": "Bắt đầu chơi Checkers In The Park",
+      "usage": "checkers <không cần ghi hoặc ID kênh voice>"
+    },
+    "chess-in-the-park": {
+      "description": "Bắt đầu chơi Chess In The Park",
+      "usage": "chess <không cần ghi hoặc ID kênh voice>"
+    },
+    "doodle-crew": {
+      "description": "Bắt đầu chơi Doodle Crew",
+      "usage": "doodle <không cần ghi hoặc ID kênh voice>"
+    },
+    "fishington.io": {
+      "description":"Bắt đầu chơi Fishington.io",
+      "usage": "fishington <không cần ghi hoặc ID kênh voice>"
+    },
+    "letter-tile": {
+      "description": "Bắt đầu chơi Letter Tile",
+      "usage": "letter-tile <không cần ghi hoặc ID kênh voice>"
+    },
+    "poker-night": {
+      "description":"Bắt đầu chơi Poker Night",
+      "usage": "Poker Night <không cần ghi hoặc ID kênh voice>"
+    },
+    "spellcast": {
+      "description": "Bắt đầu chơi SpellCast",
+      "usage": "spellcast <không cần ghi hoặc ID kênh voice>"
+    },
+    "word-snacks": {
+      "description": "Bắt đầu chơi Word Snacks",
+      "usage": "word-snacks <không cần ghi hoặc ID kênh voice>"
+    },
+    "watch-together": {
+      "description": "Bắt đầu chơi Watch Together",
+      "usage": "yt <không cần ghi hoặc ID kênh voice>"
+    },
+    "addcmd": {
+      "description": "Thêm lệnh tùy chỉnh cho máy chủ",
+      "usage": "addcmd <tên lệnh> <nội dung phản hồi>"
+    },
+    "delcmd": {
+      "description": "Xóa một lệnh tùy chỉnh của máy chủ",
+      "usage": "delcmd <tên lệnh>"
+    },
+    "create-embed": {
+      "description": "Tạo một tin nhắn Embeds(nhúng)",
+      "usage": "create-embed"
+    },
+    "addroleall": {
+      "description": "Thêm role cho tất cả các thành viên",
+      "usage": "addroleall @role"
+    },
+    "find-emoji": {
+      "description": "Tìm thêm các emoji để thêm vào máy chủ của bạn.",
+      "usage": "find-emoji <không cần ghi gì> hoặc <tên emoji muốn tìm>" 
+    },
+    "removeroleall": {
+        "description": "gỡ một role khỏi tất cả các thành viên trong máy chủ",
+        "usage": "removeroleall @role"
+    },
+    "steal-emoji": {
+        "description": "Lấy emoji ở máy chủ khác về máy chủ của bạn",
+        "usage": "stealemoji <emoji 1><emoji 2>"
+    },
+    "anime-search": {
+        "description": "Tìm thông tin anime",
+        "usage": "anime-search <tên anime>"
+    },
+    "add-word": {
+        "description": "Thêm từ để lọc",
+        "usage": "add-word <từ muốn thêm>"
+    },
+    "remove-word": {
+        "description": "Xóa từ trong danh sách",
+        "usage": "remove-word <từ muốn xóa>"
+    },
+    "list-badwords": {
+        "description": "Danh sách các từ xấu được thêm",
+        "usage": "list-badwords"
+    },
+    "create-backup": {
+        "description": "Tạo backup cho máy chủ của bạn",
+        "usage": "create-backup"
+    },
+    "info-backup": {
+        "description": "Thông tin backup",
+        "usage": "info-backup <backup ID>"
+    },
+    "load-backup": {
+        "description": "Chạy file backup",
+        "usage": "load-backup <backup ID>"
+    },
+    "ascii": {
+        "description": "Trả về văn bản đã cung cấp ở định dạng ascii.",
+        "usage": "ascii <văn bản>"
+    },
+    "avatarfushion": {
+      "description": "Kết hợp 2 avatar của 2 người lại với nhau",
+      "usage": "avf <@người thứ nhất> <@người thứ hai>"
+    },
+    "changemymind": {
+      "description": "Meme change my mind :v",
+      "usage": "cmm <văn bản>"
+    },
+    "clyde": {
+      "description": "Ảnh bot Clyde nhắn theo văn bản bạn cung cấp",
+      "usage": "clyde <văn bản>"
+    },
+    "comment": {
+      "description": "Biến lời nói của bạn thành một bình luận trên Youtube",
+      "usage": "comment <văn bản>"
+    },
+    "delete": {
+      "description": "xóa một ai đó :D",
+      "usage": "delete @người dùng"
+    },
+    "fox": {
+      "description": "Ảnh một vài chú cáo dễ thương",
+      "usage": "fox"
+    },
+    "hack": {
+      "description": "Hack một ai đó XD",
+      "usage": "hack @người dùng"
+    },
+    "jail": {
+      "description": "Bỏ tù một ai đó",
+      "usage": "jail @người dùng"
+    },
+    "joke": {
+      "description": "một câu nói đùa",
+      "usage": "joke"
+    },
+    "meme": {
+      "description": "meme",
+      "usage": "meme"
+    },
+    "nitro": {
+      "description": "Nitro MIỄN PHÍ",
+      "usage": "nitro"
+    },
+    "quote": {
+      "description": "không biết mô tả thế nào :v",
+      "usage": "quote <đề_cập_người_dùng> <văn_bản>"
+    },
+    "say": {
+      "description": "để bot nói từ mà bạn chỉ định",
+      "usage": "say <văn bản>"
+    },
+    "spank": {
+      "description": "Đoánh Đuýt trỏe hư",
+      "usage": "spank @người dùng"
+    },
+    "stonks": {
+      "description": "Stonks meme",
+      "usage": "stonks"
+    },
+    "sudo": {
+      "description": "Clone 1 ai đó",
+      "usage": "sudo <@người dùng || ID người dùng> <văn bản>"
+    },
+    "trash": {
+      "description": "trash",
+      "usage": "trash @người dùng"
+    },
+    "text-to-speech": {
+      "description": "Chuyển văn bản thành giọng nói",
+      "usage": "tts <văn bản>"
+    },
+    "wasted": {
+      "description": "wasted",
+      "usage": "wasted @người dùng"
+    },
+    "aki": {
+      "description": "Aki, thần đèn biết tuốt",
+      "usage": "aki"
+    },
+    "botinfo": {
+      "description": "Thông tin về bot",
+      "usage": "botinfo"
+    },
+    "invite": {
+      "description": "Lời mời bot",
+      "usage": "invite"
+    },
+    "ping": {
+      "description": "Ping Pong",
+      "usage": "ping"
+    },
+    "uptime": {
+      "description": "Thời gian bot hoạt động",
+      "usage": "uptime"
+    },
+    "embed": {
+      "description": "tạo tin nhắn embed bằng định dạng JSON Thô",
+      "usage": "embed [...Text]\nembed -json [Raw JSON]"
+    },
+    "emojify": {
+      "description": "Trả về biểu tượng cảm xúc theo chữ được chỉ định",
+      "usage": "emojify <văn bản>"
+    },
+    "emojis": {
+      "description": "Hiển thị tất cả emoji của máy chủ (dưới 100 emoji)",
+      "usage": "emojis"
+    },
+    "leaderboard": {
+      "description": "Bảng xếp hạng level ",
+      "usage": "leaderboard"
+    },
+    "length": {
+      "description": "đếm số ký tự trong văn bản mà bạn chỉ định",
+      "usage": "length <văn bản>"
+    },
+    "level": {
+      "description": "Xem cấp độ trong máy chủ",
+      "usage": "level"
+    },
+    "math": {
+      "description": "Tính toán luôn trong Discord :D",
+      "usage": "math 1+2-3*4/5"
+    },
+    "purge": {
+      "description": "Xóa một loạt tin nhắn",
+      "usage": "purge <số lượng tin nhắn> <--bots, --human>"
+    },
+    "qrcode": {
+      "description": "Xem cấp độ trong máy chủ",
+      "usage": "level"
+    },
+    "react": {
+      "description": "Bot sẽ thả emoji vào tin nhắn chỉ định",
+      "usage": "react <ID tin nhắn> <:emoji:>"
+    },
+    "shorturl": {
+      "description": "Link rút gọn",
+      "usage": "shorturl <Link>"
+    },
+    "snipe": {
+      "description": "Xem tin nhắn bị xóa gần nhất",
+      "usage": "snipe"
+    },
+    "ban": {
+      "description": "Cấm một ai đó ra khỏi máy chủ",
+      "usage": "ban <@người dùng || ID Người dùng> <lý do cấm>"
+    },
+    "bug": {
+      "description": "Báo cáo lỗi của bot cho Nhóm phát triển",
+      "usage": "bug <mô tả lỗi>"
+    },
+    "kick": {
+      "description": "Đá một ai đó ra khỏi máy chủ",
+      "usage": "kick <@người dùng || ID người dùng> <lý do>"
+    },
+    "lock": {
+      "description": "Khóa kênh văn bản",
+      "usage": "lock"
+    },
+    "mute": {
+      "description": "Cấm một người dùng nhắn tin và tham gia voice",
+      "usage": "mute <@người dùng || ID người dùng> <lý do>"
+    },
+    "nuke": {
+      "description": "Xóa tất cả mọi thứ trong một kênh chat",
+      "usage": "nuke"
+    },
+    "report": {
+      "description": "Báo cáo cho Admin/Mod của máy chủ",
+      "usage": "report <nội dung báo cáo>"
+    },
+    "resetwarns": {
+      "description": "Đặt lại số lượng cảnh cáo của một thành viên",
+      "usage": "resetwarns <@người dùng || ID người dùng>"
+    },
+    "tempban": {
+      "description": "Cấm tạm thời một thành viên",
+      "usage": "tempban <@người dùng || ID người dùng> <thời gian> <lý do>"
+    },
+    "timelock": {
+      "description": "Khóa kênh chat theo thời gian (Giới hạn 24 ngày khóa)",
+      "usage": "timelock <thời gian (s: giây, m: phút, h: giờ, d:ngày)>"
+    },
+    "unban": {
+      "description": "Hủy lệnh cấm người dùng đã bị cấm",
+      "usage": "unban <ID người dùng>"
+    },
+    "unlock": {
+      "description": "Mở khóa kênh đang bị khóa",
+      "usage": "unlock"
+    },
+    "unmute": {
+      "description": "Hủy lệnh mute của người dùng đã bị mute",
+      "usage": "unmute <@người dùng || ID người dùng>"
+    },
+    "warn": {
+      "description": "Cảnh cáo một thành viên trong máy chủ",
+      "usage": "warn <@người dùng || ID người dùng> <lý do>"
+    },
+    "warnings": {
+      "description": "Xem tổng số lượt cảnh cáo của một thành viên",
+      "usage": "warnings <@người dùng>"
+    },
+    "rradd": {
+      "description": "Thêm reaction role",
+      "usage": "rradd [đề cập kênh | ID kênh] + [ID tin nhắn] + [Đề cập role | ID Role] [emoji]"
+    },
+    "rrdel": {
+      "description": "Xóa reaction role",
+      "usage": "rrdel [đề cập kênh | ID kênh] + [ID tin nhắn] + [Đề cập role | ID Role] [emoji]"
+    },
+    "covid": {
+      "description": "Tìm thông tin về covid-19 của một quốc gia",
+      "usage": "covid <tên quốc gia>"
+    },
+    "weather": {
+      "description": "Thông tin thời tiết",
+      "usage": "weather <tên thành phố và quốc gia>"
+    },
+    "roleinfo": {
+      "description": "Xem thông tin của một vai trò trong máy chủ",
+      "usage": "roleinfo <@role || ID Role>"
+    },
+    "serverinfo": {
+      "description": "Xem thông tin của máy chủ",
+      "usage": "serverinfo"
+    },
+    "disable-chat-bot": {
+      "description": "Tắt chức năng chat bot",
+      "usage": "disable-chat-bot"
+    },
+    "set-nick": {
+      "description": "Đặt hoặc đổi biệt danh của bạn hoặc thành viên",
+      "usage": "setnick <@Người dùng | tên người dùng | ID người dùng> <biệt danh mới>"
+    },
+    "set-chat-bot": {
+      "description": "Thiết lập chat bot",
+      "usage": "set-chat-bot"
+    },
+    "set-language": {
+      "description": "tùy chọn đổi ngôn ngữ của bot cho máy chủ",
+      "usage": "set-language"
+    },
+    "set-channel": {
+      "description": "Thiết lập chức năng theo kênh",
+      "usage": "set-channel"
+    },
+    "set-image": {
+      "description": "Đặt ảnh",
+      "usage": "set-image"
+    },
+    "setmuterole": {
+      "description": "Thiết lập role mute",
+      "usage": "setmuterole <@Role | ID ROLE>"
+    },
+    "setprefix": {
+      "description": "Đặt prefix mới cho bot",
+      "usage": "setprefix <prefix mới>"
+    },
+    "support-server": {
+      "description": "Server Discord chính thức của Bot Hibiki Ban Mai",
+      "usage": "support-server"
+    },
+    "ticket": {
+      "description": "tạo tickets",
+      "usage": "tickets"
+    },
+    "afk": {
+      "description": "Chuyển sang trạng thái vắng mặt",
+      "usage": "afk <lý do vắng>"
+    },
+    "avatar": {
+      "description": "Lấy ảnh đại diện của chính bạn hoặc người khác",
+      "usage": "avatar <không cần ghi gì | @người dùng | ID người dùng>"
+    },
+    "userinfo": {
+      "description": "Xem thông tin của người dùng",
+      "usage": "userinfo <@người dùng | ID người dùng"
+    },
+    "eval": {
+      "description": "Evaluates js code",
+      "usage": "eval client.user.displayAvatarURL()"
+    },
+    "applyfilter": {
+      "description": "Thêm bộ lọc âm thanh",
+      "usage": "applyfilter <tên bộ lọc âm thanh>"
+    },
+    "bassboost": {
+      "description": "Bassboost",
+      "usage": "bassboost <on/off>"
+    },
+    "clearqueue": {
+      "description": "Dọn sạch hàng chờ",
+      "usage": "clearqueue"
+    },
+    "filters": {
+      "description": "Danh sách các bộ lọc",
+      "usage": "filters"
+    },
+    "join": {
+      "description": "Gọi tớ vào voice",
+      "usage": "join"
+    },
+    "leave": {
+      "description": "Ngắt kết nối khỏi voice",
+      "usage": "leave"
+    },
+    "loop": {
+      "description": "Lặp lại bài hát",
+      "usage": "loop <queue/on/off>"
+    },
+    "lyrics": {
+      "description": "Tìm lời bài hát",
+      "usage": "lyrics <tên bài hát>"
+    },
+    "nightcore": {
+      "description": "Nightcore",
+      "usage": "nightcore <on/off>"
+    },
+    "nowplaying": {
+      "description": "Thông tin về bài hát đang phát",
+      "usage": "nowplaying"
+    },
+    "pause": {
+      "description": "Tạm dừng",
+      "usage": "pause"
+    },
+    "play": {
+      "description": "Phát nhạc",
+      "usage": "play <Link Youtube|ID Video>"
+    },
+    "search": {
+      "description": "Tìm kiếm nhạc trên youtube",
+      "usage": "search <tên bài hát>"
+    },
+    "queue": {
+      "description": "Danh sách hàng chờ",
+      "usage": "queue"
+    },
+    "resume": {
+      "description": "Tiếp tục phát sau khi tạm dừng",
+      "usage": "resume"
+    },
+    "shuffle": {
+      "description": "Đảo vị trí các bài hát trong hàng chờ",
+      "usage": "shuffle"
+    },
+    "skip": {
+      "description": "Bỏ qua bài hát đang phát và sang bài tiếp theo trong hàng chờ",
+      "usage": "skip"
+    },
+    "stop": {
+      "description": "Dừng phát nhạc",
+      "usage": "stop"
+    },
+    "volume": {
+      "description": "Điều chỉnh âm lượng phát nhạc của Bot",
+      "usage": "volume <1-100>"
+    },
+    "banmai-baothucvid": {
+      "description": "Ban Mai Ohayo",
+      "usage": "banmai-baothucvid"
+    },
+    "duca-baothucvid": {
+      "description": "Duca Ohayo",
+      "usage": "duca-baothucvid"
+    },
+    "banmai-ara": {
+      "description": "Ban Moi Ara Ara",
+      "usage": "banmai-ara"
+    },
+    "banmai-baothuc": {
+      "description": "Ban Moi Ohayooooo",
+      "usage": "banmai-baothuc"
+    },
+    "duca-baothuc": {
+      "description": "Duca Ohayooooo",
+      "usage": "duca-baothuc"
+    },
+    "qr": {
+      "description": "Tạo mã QR",
+      "usage": "qr <ký tự / link>"
+    },
+    "serverlist": {
+      "description": "List of the server",
+      "usage": "slt"
+    },
+    "set-mute-role": {
+      "description": "Đặt role Mute",
+      "usage": "set-mute-role <đề cập role hoặc ID role>"
+    },
+    "radio-start": {
+      "description": "Bắt đầu radio",
+      "usage": "radio-start"
+    },
+    "radio-end": {
+      "description": "Kết thúc radio",
+      "usage": "radio-end"
+    },
+    "baka": {
+      "description": "đồ-đồ ngốc UwU",
+      "usage": "baka <@người dùng>"
+    },
+    "hug": {
+      "description": "ôm nèk :3",
+      "usage": "hug <@người dùng>"
+    },
+    "kiss": {
+      "description": "hôn nèk :3",
+      "usage": "kiss <@người dùng>"
+    },
+    "neko": {
+      "description": "mèoooo :3",
+      "usage": "neko"
+    },
+    "pat": {
+      "description": "Xoa đầu uwu",
+      "usage": "pat <@người dùng>"
+    },
+    "poke": {
+      "description": "Chọt chọt q(≧▽≦q)",
+      "usage": "poke <@người dùng>"
+    },
+    "punch": {
+      "description": "Đứm nkao",
+      "usage": "punch <@người dùng>"
+    },
+    "slap": {
+      "description": "tát nhau :))",
+      "usage": "slap <@người dùng>"
+    },
+    "smug": {
+      "description": "không biết nói sao :v",
+      "usage": "smug"
+    },
+    "tickle": {
+      "description": "cù lét ヾ(≧▽≦*)o",
+      "usage": "tickle <@người dùng>"
+    },
+    "waifu": {
+      "description": "waifu của bạn nèk :3",
+      "usage": "waifu"
+    },
+    "wink": {
+      "description": "nhoáy mắt ο(=•ω＜=)ρ⌒☆",
+      "usage": "wink"
+    },
+    "nqn": {
+      "description": "Sử dụng emoji động mà không cần nitro",
+      "usage": "nqn <on/off>"
+    },
+    "deleteallytchannels": {
+      "description": "Xóa tất cả các kênh Youtube đã set trong server",
+      "usage": "deleteallytchannels"
+    },
+    "ytmsgedit": {
+      "description": "Chỉnh sửa thông tin của một kênh youtube đã được thiết lập sẵn trong server",
+      "usage": "ytmsgedit"
+    },
+    "getallytchannels": {
+      "description": "Thông tin của tất cả các kênh youtube được set trong server",
+      "usage": "getallytchannels"
+    },
+    "getytchannel": {
+      "description": "Xem thông tin của một kênh Youtube đã được thiết lập trong server",
+      "usage": "getytchannel <Channel URL>"
+    },
+    "getytuser": {
+      "description": "Xem thông tin về Youtube Poster của một thành viên trong server",
+      "usage": "getytuser <@mention>"
+    },
+    "setytchannel": {
+      "description": "Thiết lập thông báo kênh youtube trong server",
+      "usage": "setytchannel"
+    },
+    "ytchannelinfo": {
+      "description": "Xem thông tin của một kênh Youtube bất kỳ",
+      "usage": "ytchannelinfo <channel URL>"
+    },
+    "ytchannelremove": {
+      "description": "Xóa một kênh youtube đã được thiết lập trong server",
+      "usage": "ytchannelremove <channel URL>"
+    },
+    "anti-link": {
+      "description": "Bật tắt chế độ chống gửi link",
+      "usage": "anti-link <on/off>"
+    },
+    "set-ignore-role": {
+      "description": "Thiết lập roles loại trừ khỏi Anti-Link, Anti-Badword",
+      "usage": "set-ignore-role <role>"
+    },
+    "del-ignore-role": {
+      "description": "Gỡ roles loại trừ khỏi Anti-Link, Anti-Badword",
+      "usage": "del-ignore-role <role>"
+    },
+    "set-ignore-channel": {
+      "description": "Thiết lập kênh văn bản được loại trừ khỏi Anti-Link",
+      "usage": "set-ignore-channel <channel>"
+    },
+    "del-ignore-channel": {
+      "description": "Gỡ kênh văn bản được loại trừ khỏi Anti-Link",
+      "usage": "del-ignore-channel <channel>"
+    },
+    "announcement": {
+      "description": "null",
+      "usage": "null"
+    }
+  }
+}

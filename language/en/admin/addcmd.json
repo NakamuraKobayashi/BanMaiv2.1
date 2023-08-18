@@ -1,0 +1,7 @@
+{
+    "noneResponse": "You need to provide a response command",
+    "noneResponseN": "addcmd <command_name> <response_command>",
+    "alreadyHave": "This command is already in server custom commands",
+    "added": "Added",
+    "addedN": "is a custom command of the Server"
+}

@@ -1,0 +1,6 @@
+{
+    "joinFirst": "Pls join a Voice Channel first to use it. :3",
+    "missingPerms": "Missing permission to join voice channel :< (Missing Permission: Connect, Speak)",
+    "cannotJoin": "I can't join this Voice Channel <:puddingsui:907565882711085157> !",
+    "full": "This Voice Channel is full, i can't join"
+}

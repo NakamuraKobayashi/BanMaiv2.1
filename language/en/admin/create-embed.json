@@ -1,0 +1,19 @@
+{
+    "createProcess": "Create Embed message",
+    "channel": "Where do you want to send this Embed Message?",
+    "youCanCancel": "You can cancel the process at any time by typing `cancel`.",
+    "cancel": "Canceled the create embed message process!",
+    "invalidChannel": "That's not the Text Channel or Invalid! Canceled the create embed message process!",
+    "sendIn": "The embed message will be sent in",
+    "title": "What do you want the title of the embedded message to be?",
+    "noTitle": "You didn't provide a title, canceled the create embed message process",
+    "color": "Okayyyy, so now what the color you want for this embed message? (Hex Color or RANDOM)",
+    "colorSet": "The color of this embed message is",
+    "description": "what do you want the description of the embed message to be?",
+    "footer": "Uki! now, what do you want the footer to be?",
+    "noFooter": "You didn't provide the footer, canceled the create embed message process!",
+    "timestamp": "Gud, Do you want to display the timestamp of this embed message",
+    "haveTimestamp": "OK, the embed message will display a timestamp! The embed message has been sent in",
+    "noneTimestamp": "OK, the embed message will not display a timestamp! The embed message has been sent in",
+    "done": "Done!"
+}

@@ -1,0 +1,13 @@
+{
+    "channel": "Mention text channel or text channel ID",
+    "message": "Message ID you want to remove Reaction Roles",
+    "role": "Mention Role or Role ID",
+    "emoji": "Provide emoji you want to remove",
+    "channelNotFound": "Channel Not Found",
+    "messageNotFound": "Cannot find that message",
+    "roleNotFound": "Role not found",
+    "provideEmoji": "Provide emoji you want to remove",
+    "title": "Reaction Role has been completed",
+    "deleted": "Reaction Role has been removed!",
+    "notFound": "Cannot find that Reaction Role"
+}

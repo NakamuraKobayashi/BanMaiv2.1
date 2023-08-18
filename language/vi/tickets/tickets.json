@@ -1,0 +1,18 @@
+{
+    "openTicket": "Mở 1 tickets!",
+    "field": "Mở một tickets khi muốn nhờ sự hỗ trợ của Mod hoặc Staff!",
+    "sponsor": "Được cung cấp bởi hibikibanmai.kinhdoanhvietnhat.com",
+    "close": "Đóng",
+    "open": "Ticket của bạn đã được mở, Bấm vào kênh",
+    "toSee": "để xem ticket của bạn",
+    "info": "Thông tin chung:",
+    "ticketName": "Tên Ticket:",
+    "ticketID": "Ticket ID",
+    "support": "Ticket hỗ trợ",
+    "openAt": "Ticket mở lúc",
+    "wait": "Mod và Staff sẽ sớm đến hỗ trợ bạn !!!",
+    "toClose": "Để đóng ticket, nhấn",
+    "sorry": "Xin lỗi, bạn không có quyền truy cập để xóa kênh này, kênh này chỉ duy nhất",
+    "hasPerm": "mới có quyền xóa",
+    "deleteIn": "Xóa sau 5 giây"
+}

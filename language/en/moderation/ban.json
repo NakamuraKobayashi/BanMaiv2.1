@@ -1,0 +1,20 @@
+{
+    "mentionUser": "Mention a user you want to Ban",
+    "notFound": "This user is not on this server",
+    "yourSelf": "You cannot Ban yourself",
+    "cannotBan": "Couldn't Ban this user",
+    "bannedHi": "Hello, you have been banned in",
+    "bannedReason": "Reason",
+    "noReason": "There is no reason or this is a mistake",
+    "hasBeenBanned": "have been banned, reason:",
+    "bannedLog": "Have been banned",
+    "modLog": {
+        "moderation": "Command",
+        "banned": "Banned user",
+        "id": "ID",
+        "by": "Banned by",
+        "reason": "Reason",
+        "noReason": "No reason",
+        "date": "Date"
+    }
+}

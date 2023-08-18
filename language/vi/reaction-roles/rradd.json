@@ -1,0 +1,13 @@
+{
+    "channel": "Cần đề cập đến kênh văn bản hoặc ID kênh văn bản",
+    "message": "Cung cấp ID tin nhắn muốn thêm Reaction Roles",
+    "role": "Cần đề cập Role hoặc ID Role",
+    "emoji": "Cung cấp một emoji",
+    "channelNotFound": "Không tìm thấy kênh này",
+    "messageNotFound": "Không tìm thấy ID tin nhắn này",
+    "roleNotFound": "Không tìm thấy Role này",
+    "provideEmoji": "Cung cấp một Emoji",
+    "invalidEmoji": "Emoji không hợp lệ",
+    "emojiUsed": "Emoji này đã được sử dụng làm Reaction Role ở tin nhắn này!",
+    "title": "Reaction Role đã được thiết lập"
+}

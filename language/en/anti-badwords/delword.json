@@ -1,0 +1,8 @@
+{
+    "notHavePerms": "You don't have permission to use this command!",
+    "noWordSpecify": "No word provide",
+    "eg": "Example",
+    "addWordEg": "del-word fuq",
+    "deleted": "Deleted this word from badword list",
+    "doesnotHave": "That word is not in the badword list",
+}

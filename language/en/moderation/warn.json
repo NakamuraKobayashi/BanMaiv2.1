@@ -1,0 +1,19 @@
+{
+    "mention": "Mention a user you want to warn - warn <@user> <reason>",
+    "bot": "Couldn't warn Bot",
+    "yourSelf": "You cannot warn yourself",
+    "owner": "Waittttt, are you joking? how you can warn server owner? -_-",
+    "provideReason": "Please state the reason for the warning",
+    "warnHi": "You have been warned in",
+    "reason": "reason:",
+    "warned": "You have been warned",
+    "youWarn": "You warned",
+    "modLog": {
+        "moderation": "Command",
+        "warned": "Warned user",
+        "mod": "Warned by",
+        "reason": "Reason",
+        "noReason": "No reason",
+        "date": "Date"
+    }
+}

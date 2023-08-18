@@ -1,0 +1,70 @@
+{
+    "help": {
+        "description": "show all categories",
+        "usage": "help [Command]",
+        "embed": {
+            "commands": {
+                "description": "help [command]",
+                "field": "Commands",
+                "custom": {
+                    "description": {
+                        "lenhtuychinh": "Custom Commands",
+                        "helplenh": "help [Command]"
+                    },
+                    "field": "Commands:"
+                },
+                "detail": {
+                    "title": "Command",
+                    "category": "Categories",
+                    "description": {
+                        "none": "No description"
+                    },
+                    "aliases": {
+                        "names": "Aliases",
+                        "none": "No aliases",
+                        "field": {
+                            "permsreq": "Required permissions",
+                            "none": "No permissions",
+                            "usage": "Usage",
+                            "usagenone": "No usage"
+                        }
+                    }
+                }
+            }
+        },
+        "main": {
+            "title": "Command list",
+            "description": "",
+            "field": {
+                "admin": "Admin",
+                "moderation": "Moderation",
+                "ticket": "Ticket",
+                "user": "User",
+                "info": "Details",
+                "server": "Server",
+                "search": "Search",
+                "misc": "Misc",
+                "music": "Music",
+                "rr": "Reaction Roles",
+                "yt_poster": "Youtube Poster",
+                "activities": "Activities",
+                "anti_badword": "Anti badwords",
+                "anime": "Anime",
+                "fun": "Fun commands",
+                "games": "Games",
+                "voice": "Voice",
+                "video": "Video",
+                "settings": "Settings",
+                "custom_commands": "custom commands"
+            }
+        },
+        "buttons": {
+            "premium": "Subscribe to Premium",
+            "invite": "Join Bot's Official Community Server"
+        }
+    },
+"title": "Join the support server for support and updates!",
+"category": "category-name",
+"command": "command-name",
+"template": "template of help command"
+}

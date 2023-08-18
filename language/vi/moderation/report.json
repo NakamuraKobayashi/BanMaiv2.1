@@ -1,0 +1,19 @@
+{
+    "mentionUser": "Bạn đã không đề cập một người dùng!",
+    "noReason": "Bạn đã không đưa ra lý do report người này!",
+    "noChannel": "Xin lỗi, không có kênh nào được cài đặt để gửi report.",
+    "noChannels": "Hãy sử dụng lệnh",
+    "noChannelSet": "trước để set kênh nhận tin nhắn report!",
+    "ticketReport": "Ticket report của bạn đã được gửi đến kênh",
+    "checkLater": "Chúng tôi sẽ kiểm tra Report của bạn!",
+    "embed": {
+        "newReport": "Report Mới!",
+        "reported": "Đã report người dùng",
+        "userID": "ID người report",
+        "userTag": "Tên người report",
+        "reportedID": "ID người bị report",
+        "reportedTag": "Tên người bị report",
+        "reason": "Lý do",
+        "date": "Ngày"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "role": "Mention a role.",
+    "number": "Provide a number",
+    "levelNumber": "The number you provide will be the Level milestones to achieve the role.",
+    "levelAlready": "A role has been granted at this level!",
+    "added": "New Level Role has been added successfully."
+}

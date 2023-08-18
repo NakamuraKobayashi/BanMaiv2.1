@@ -1,0 +1,15 @@
+{
+    "mention": "Please provide ID, Tag, Name of the user you want to remove the ban",
+    "provide": "Please provide valid username, tag or ID or banned user",
+    "missingPerms": "Ban Mai doesn't have enough permission to unban somebody! - Missing Permission [Ban User]",
+    "unbanned": "ban has been lifted",
+    "reason": "reason:",
+    "modLog": {
+        "moderation": "Command",
+        "unbanned": "Unbanned user",
+        "mod": "Unbanned by:",
+        "reason": "Reason",
+        "noReason": "No reason",
+        "date": "Date"
+    }
+}

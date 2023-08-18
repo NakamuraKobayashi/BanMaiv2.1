@@ -1,0 +1,9 @@
+{
+    "notHavePerms": "Bạn không có đủ quyền để sử dụng lệnh này!",
+    "noWordSpecify": "Không có từ nào được cung cấp",
+    "eg": "Ví dụ",
+    "addWordEg": "thêm-từ fuq",
+    "added": "Đã thêm từ này vào danh sách từ cấm",
+    "alreadyHave": "Từ này đã có trong danh sách cấm!",
+    "Error": "Lỗi"
+}

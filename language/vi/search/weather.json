@@ -1,0 +1,12 @@
+{
+    "region": "Hãy chỉ ra khu vực bạn muốn xem thời tiết",
+    "weatherAt": "Thời tiết ở",
+    "diff": "Nhiệt độ đôi khi sẽ khác nhau",
+    "temperature": "Nhiệt độ",
+    "sky": "Trời",
+    "humidity": "Độ ẩm",
+    "windSpeed": "Tốc độ gió",
+    "timeUpdate": "Thời gian cập nhật",
+    "windDirection": "Hướng gió",
+    "cannotFetch": "Không thể lấy dữ liệu thời tiết ở vùng này"
+}

@@ -1,0 +1,8 @@
+{
+    "BotLower": "Role của tớ ở dưới role",
+    "UserLower": "Role của cậu phải cao hơn role",
+    "UserLowerN": "để có thể sử dụng lệnh này!",
+    "InvalidRole": "Hãy đề cập một Role hợp lệ",
+    "InProgress": "Đang gỡ Role",
+    "ForAll": "của mọi người (có thể sẽ có người không được gỡ role)"
+}

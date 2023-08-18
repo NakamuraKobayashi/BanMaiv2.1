@@ -1,0 +1,9 @@
+{
+    "speaking": "I'm already talking now, pls try again later",
+    "joinVoiceFirst": "Join in a voice channel to use !",
+    "missingPerms": "I don't have permission to join voice ;-; (Missing Perms: Connect, Speak)",
+    "cannotJoinVoice": "I cannot join that voice",
+    "missingArgument": "Missing argument, u need to provide at least 1 word to use Text-to-Speech",
+    "fullVoice": "I cannot join that voice, becuz it full ;-;",
+    "leaving": "I left the room becuz you was no longer in use"
+}

@@ -1,0 +1,21 @@
+{
+    "mentionUser": "Mention a user or their ID to Kick off the server :3",
+    "notFound": "This user is not on this server",
+    "yourSelf": "You cannot kick yourself :(",
+    "cannotKick": "Couldn't kick this user!",
+    "cannotKickBot": "For many reasons, you cannot kick the BOT by using command, pls kick manually if you have permission!",
+    "noReason": "No reason",
+    "kickedHi": "You have been kicked from the server",
+    "reason": "Reason:",
+    "noReasonProvide": "There is no reason or this is a mistake!",
+    "modLog": {
+        "kicked": "Have been kicked, reason:",
+        "kickeds": "Have been kicked",
+        "moderation": "Command",
+        "user": "Kicked user",
+        "by": "Kicked by",
+        "reason": "Reason",
+        "noReason": "No reason",
+        "date": "Date"
+    }
+}

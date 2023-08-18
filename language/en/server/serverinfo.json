@@ -1,0 +1,17 @@
+{
+    "noAFK": "No AFK channel",
+    "noDes": "No description",
+    "members": "Members",
+    "server": "Server",
+    "createAt": "Created at",
+    "owner": "Owner",
+    "AFKChannel": "AFK channel",
+    "boostLevel": "Boost Tier",
+    "boost": "Boost",
+    "svFeature": "Server Features",
+    "misc": "Misc",
+    "channels": "Channels",
+    "textChannel": "Text channels",
+    "voiceChannel": "Voice channel",
+    "emojis": "Emoji"
+}

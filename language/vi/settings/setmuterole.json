@@ -1,0 +1,8 @@
+{
+    "server": "Role Mute của server này sẽ là Role",
+    "mentionRole": "Hãy đề cập một Role hoặc ID role!",
+    "MentionRole": "Hãy đề cập một Role hoặc ID role hợp lệ!",
+    "already": "Role này đã là Mute Role rồi mà :v!",
+    "hasBeenSet": "Đã được set làm Mute Role!",
+    "error": "Lỗi - `Thiếu quyền hoặc Role không hợp lệ!`"
+}

@@ -1,0 +1,8 @@
+{
+    "BotLower": "My role is below role",
+    "UserLower": "Your role is below role",
+    "UserLowerN": "so you can't use this command!",
+    "InvalidRole": "Mention a Role",
+    "InProgress": "Adding role",
+    "ForAll": "for everyone (maybe some users won't have this role)"
+}

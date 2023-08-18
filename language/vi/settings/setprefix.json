@@ -1,0 +1,7 @@
+{
+    "provideNewPrefix": "Hãy chỉ định prefix mới cho Bot!",
+    "longerPrefix": "Prefix mà bạn chỉ định quá dài - giới hạn 10 ký tự",
+    "already": "Prefix này là Prefix hiện tại của Bot!",
+    "newPrefix": "Prefix mới đã được đặt thành",
+    "setBy": "Ngưởi sửa đổi"
+}

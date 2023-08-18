@@ -1,0 +1,20 @@
+{
+    "mentionUser":"Hãy đề cập một người dùng bạn muốn Cấm khỏi máy chủ",
+    "notFound":"Người này không có trong máy chủ này",
+    "yourSelf":"Bạn không thể cấm chính bản thân bạn",
+    "cannotBan":"Không thể cấm người này",
+    "bannedHi":"Xin chào, bạn đã bị Cấm khỏi máy chủ",
+    "bannedReason":"Lý do",
+    "noReason":"Không có lý do hoặc có thể là bạn đen hoặc do nhầm lẫn :D",
+    "hasBeenBanned":"đã bị Cấm khỏi máy chủ, lý do:",
+    "bannedLog":"Đã bị Cấm khỏi máy chủ",
+    "modLog":{
+        "moderation": "Lệnh",
+        "banned": "Người bị cấm",
+        "id": "ID",
+        "by": "Người cấm",
+        "reason": "Lý do",
+        "noReason": "Không có lý do",
+        "date": "Ngày"
+    }
+}

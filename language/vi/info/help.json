@@ -1,0 +1,70 @@
+{
+"help": {
+    "description": "hiển thị tất cả các danh mục của Bot",
+    "usage": "help [Lệnh]",
+    "embed": {
+        "commands": {
+            "description": "help [lệnh]",
+            "field": "Các lệnh",
+            "custom": {
+                "description": {
+                    "lenhtuychinh": "Lệnh tùy chỉnh",
+                    "helplenh": "help [Lệnh]"
+                },
+                "field": "Các lệnh:"
+            },
+            "detail": {
+                "title": "Lệnh",
+                "category": "Thể loại",
+                "description": {
+                    "none": "Không có mô tả"
+                },
+                "aliases": {
+                    "names": "Các tên gọi khác",
+                    "none": "Không có tên gọi khác",
+                    "field": {
+                        "permsreq": "Yêu cầu quyền hạn",
+                        "none": "Không cần quyền",
+                        "usage": "Cách sử dụng",
+                        "usagenone": "Không có cách"
+                    }
+                }
+            }
+        }
+    },
+    "main": {
+        "title": "Danh Sách Các Lệnh",
+        "description": "",
+        "field": {
+            "admin": "Admin",
+            "moderation": "Quản lý",
+            "ticket": "Vé",
+            "user": "Người dùng",
+            "info": "Thông tin",
+            "server": "Máy chủ",
+            "search": "Tìm kiếm",
+            "misc": "Linh tinh",
+            "music": "Âm nhạc",
+            "rr": "Reaction Roles",
+            "yt_poster": "Youtube Poster",
+            "activities": "Hoạt động",
+            "anti_badword": "Chống từ xấu",
+            "anime": "Anime",
+            "fun": "Lệnh vui",
+            "games": "Trò chơi",
+            "voice": "Giọng nói",
+            "video": "Video",
+            "settings": "Cài đặt",
+            "custom_commands": "lệnh riêng của server"
+        }
+    },
+    "buttons": {
+        "premium": "Đăng ký Premium",
+        "invite": "Tham gia Server Cộng động Hibiki Ban Mai"
+    }
+  },
+"title": "Cách sử dụng lệnh help của bot",
+"category": "tên-danh-mục",
+"command": "tên-lệnh",
+"template": "mẫu lệnh help"
+}

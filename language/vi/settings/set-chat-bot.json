@@ -1,0 +1,12 @@
+{
+    "mention": "Hãy đề cập một kênh để setup Chat Bot",
+    "noSet": "Không set Danh Mục Hoặc Voice",
+    "type": "Gõ",
+    "cancel": "hủy",
+    "toStop": "để dừng thiết lập",
+    "noResponse": "Không có phản hồi trong thời gian chờ, hủy thiết lập...",
+    "Cancel": "Hủy thiết lập...!",
+    "mentionReq": "Hãy đề cập kênh văn bản!",
+    "done": "Xong",
+    "last": "Từ giờ, Tớ sẽ nói chuyện với mọi người ở kênh"
+}

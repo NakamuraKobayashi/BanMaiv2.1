@@ -1,0 +1,8 @@
+{
+    "title": "TÌNH TRẠNG BOT",
+            "field_one": "Xem tình trạng bot trong vòng 30 ngày gần đây",
+            "field_two": "Nhấn vào nút `Xem tình trạng của bot` để xem !",
+            "button": {
+                "label": "Xem tình trạng của bot"
+            }
+}

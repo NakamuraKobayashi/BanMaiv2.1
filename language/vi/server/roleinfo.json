@@ -1,0 +1,13 @@
+{
+    "role": "Hãy đề cập một Role hoặc ID role (khuyến nghị dùng ID role để tránh làm phiền)!",
+    "invalidRole": "Hãy đề cập một role hợp lệ hoặc ID role hợp lệ!",
+    "true": "Có",
+    "false": "Không",
+    "roleInfo": "Thông tin Role",
+    "roleName": "Tên Role",
+    "roleHex": "Mã Hex",
+    "roleColor": "Màu",
+    "roleMembers": "Số người có Role này",
+    "rolePosition": "Vị trí Role",
+    "allowMention": "Cho phép đề cập"
+}

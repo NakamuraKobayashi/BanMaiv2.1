@@ -1,0 +1,8 @@
+{
+    "BotLower": "My role is below role",
+    "UserLower": "Your role needs to be higher than role",
+    "UserLowerN": "to use this command!",
+    "InvalidRole": "Mention a Role",
+    "InProgress": "Removing role",
+    "ForAll": "of everyone (Maybe some people can't remove the role)"
+}

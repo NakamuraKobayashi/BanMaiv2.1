@@ -1,0 +1,9 @@
+{
+    "provideEquation": "Gimme an equation",
+    "result": "Result",
+    "somethingWrongs": "Pls give a valid equation | Pls try again!",
+    "multiplication": "is multiplication",
+    "division": "is division",
+    "and": "and",
+    "plusAndMinus": "as usual"
+}

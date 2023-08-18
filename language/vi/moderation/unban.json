@@ -1,0 +1,15 @@
+{
+    "mention": "Hãy cung cấp ID, Tag, Tên của người mà bạn muốn gỡ bỏ lệnh cấm",
+    "provide": "Vui lòng cung cấp tên người dùng, thẻ hoặc ID hợp lệ hoặc người dùng bị cấm",
+    "missingPerms": "Ban Mai hông có đủ quyền để hủy cấm một ai đó! - thiếu quyền `[Cấm người dùng]",
+    "unbanned": "đã được hủy lệnh cấm",
+    "reason": "lý do:",
+    "modLog": {
+        "moderation": "Lệnh",
+        "unbanned": "Người được hủy lệnh cấm",
+        "mod": "Người hủy lệnh cấm",
+        "reason": "Lý do",
+        "noReason": "Không có lý do",
+        "date": "Ngày"
+    }
+}

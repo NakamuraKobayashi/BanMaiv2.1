@@ -1,0 +1,16 @@
+{
+        "description": "Ra đời vào:",
+        "time": "Thời gian hoạt động",
+        "RAM": "RAM",
+        "servers": "Số lượng máy chủ",
+        "server": "Máy chủ",
+        "users": "Số lượng người dùng",
+        "user": "Người dùng",
+        "commands": "Tổng số lệnh",
+        "command": "lệnh",
+        "node": {
+            "on": "trên"
+        },
+        "cache": "Dữ liệu bộ nhớ đệm",
+        "uptime": "Xem trạng thái trong vòng 30 ngày gần nhất"
+}

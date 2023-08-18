@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <%- include('includes/head') %>
+
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+      <!-- The header is the topbar -->
+      <%- include('includes/header') %>
+
+      <!-- The sidebar includes the menu -->
+      <%- include('includes/sidebar') %>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>Chọn máy chủ <small> Version 1.0.0-beta </small></h1>
+          <ol class="breadcrumb">
+            <li class="active">
+              <a href="/"><i class="fa fa-home"></i>Chọn máy chủ</a>
+            </li>
+          </ol>
+        </section>
+
+        <section class="content">
+          <div class="row">
+            <% if(user.displayedGuilds){ user.displayedGuilds.forEach(function(guild) { %>
+            <!-- Displays 4 servers by line -->
+            <div class="col-md-3">
+              <div class="box box-solid">
+                <div class="box-header with-border text-center">
+                  <i class="fas fa-crown"></i>
+                  <h3 class="box-title server-name"><%= guild.name %></h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <div class="text-center">
+                    <img
+                      src="<%= guild.iconURL %>"
+                      style="border-radius: 100%"
+                      width="100"
+                      height="100"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                  <% if(guild.settingsUrl.includes('discordapp.com')) { %>
+                  <a href="<%= guild.settingsUrl %>"><button class="btn btn-block btn-primary">Mời bot</button></a>
+                  <% } else { %>
+                  <a href="<%= guild.settingsUrl %>"><button class="btn btn-block btn-success">Quản lý</button></a>
+                  <% } %>
+                </div>
+                <!-- /.box-footer -->
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.col -->
+            <% }); } else { %>
+            <div class="col-md-12">
+              <div class="box box-warning">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Không tìm thấy server nào!</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                  </div>
+                  <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  Không có máy chủ để hiển thị. Đảm bảo bạn đã đăng nhập bằng đúng tài khoản và thử lại!
+                </div>
+                <!-- /.box-body -->
+              </div>
+              <!-- /.box -->
+            </div>
+            <% } %>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer includes credits and version -->
+      <%- include('includes/footer') %>
+    </div>
+    <!-- ./wrapper -->
+  </body>
+</html>

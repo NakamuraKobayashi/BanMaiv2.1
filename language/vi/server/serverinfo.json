@@ -1,0 +1,17 @@
+{
+    "noAFK": "Không có kênh AFK",
+    "noDes": "Không có mô tả",
+    "members": "Thành viên",
+    "server": "Máy chủ",
+    "createAt": "Tạo vào",
+    "owner": "Chủ sở hữu",
+    "AFKChannel": "Kênh AFK",
+    "boostLevel": "Cấp Boost",
+    "boost": "Boost",
+    "svFeature": "Các tính năng của máy chủ",
+    "misc": "Linh tinh",
+    "channels": "Các kênh",
+    "textChannel": "Kênh văn bản",
+    "voiceChannel": "Kênh thoại",
+    "emojis": "Emoji"
+}

@@ -1,0 +1,1659 @@
+
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" type="image/png" href="/hibikibanmai.png">
+
+    <nav class="navbar navbar-expand-lg justify-content-center navbar-dark" style="background-color: #cf67b0;">
+        <div class="container">
+            <a class="navbar-brand" href="/" style="text-decoration: none;color:white">
+                <img src="/hibikibanmai.png" alt="Logo" 
+                class="d-inline-block align-top"
+                >
+            </a> <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="/commands.html">Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=873867519784550441&permissions=8&scope=bot%20applications.commands" target="_blank">
+                        Invite
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://bio.link/hibikibanmai" target="_blank">Donate</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://facebook.com/hibikibanmai" target="_blank">Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    let myParam = urlParams.get('error');
+    if(myParam) alert(myParam);
+    myParam = urlParams.get('success');
+    if(myParam) alert(myParam);
+</script>
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+      <title>Hibiki Ban Mai - Commands</title>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta data-n-head="ssr" name="theme-color" content="#fc68af"><meta data-n-head="ssr" name="twitter:card" content="summary"><meta data-n-head="ssr" name="twitter:site" content="@hibikibanmai"><meta data-n-head="ssr" name="twitter:creator" content="@hibikibanmai"><meta data-n-head="ssr" name="twitter:image" content="/hibikibanmai.png"><meta data-n-head="ssr" name="twitter:image:alt" content="Hibiki Ban Mai logo"><meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:type" content="website"><meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:locale" content="vi_VN"><meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:site_name" content="Hibiki Ban Mai"><meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:image" content="/hibikibanmai.png"><meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:image:url" content="/hibikibanmai.png"><meta data-n-head="ssr" data-hid="title" name="title" content="Hibiki Ban Mai - Discord Bot"><meta data-n-head="ssr" data-hid="description" name="description" content="Bot Hibiki Ban Mai là sự kết hợp của Akatsuki Ban Mai và Hibiki Du Ca!"><meta data-n-head="ssr" data-hid="keywords" name="keywords" content="Hibiki Ban Mai"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Hibiki Ban Mai Discord Bot"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Bot Hibiki Ban Mai là sự kết hợp của Akatsuki Ban Mai và Hibiki Du Ca!"><meta data-n-head="ssr" data-hid="twitter:url" name="twitter:url" content="https://hibiki.banmai.repl.co/"><meta data-n-head="ssr" data-hid="og:title" prefix="og: http://ogp.me/ns#" property="og:title" content="Hibiki Ban Mai Discord Bot"><meta data-n-head="ssr" data-hid="og:description" prefix="og: http://ogp.me/ns#" property="og:description" content="Bot Hibiki Ban Mai là sự kết hợp của Akatsuki Ban Mai và Hibiki Du Ca!"><meta data-n-head="ssr" data-hid="og:url" prefix="og: http://ogp.me/ns#" property="og:url" content="https://hibiki.banmai.repl.co/"><meta data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://hibiki.banmai.repl.co/"><link data-n-head="ssr" rel="icon" type="image/png" href="/hibikibanmai.png"><link data-n-head="ssr" rel="shortcut-icon" type="image/png" href="/hibikibanmai.png"><link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="/hibikibanmai.png"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://hibiki.banmai.repl.co/"><script data-n-head="ssr" data-hid="ce-snapshot-name">window.CE_SNAPSHOT_NAME="default"</script><script data-n-head="ssr" src="//script.crazyegg.com/pages/scripts/0103/5774.js" type="text/javascript" async defer></script><link rel="modulepreload" href="https://rythm.fm/_rythm/5bd203b.modern.js" as="script"><link rel="modulepreload" href="https://rythm.fm/_rythm/cedba53.modern.js" as="script"><link rel="modulepreload" href="https://rythm.fm/_rythm/351039f.modern.js" as="script"><link rel="modulepreload" href="https://rythm.fm/_rythm/d5d799d.modern.js" as="script"><link rel="modulepreload" href="https://rythm.fm/_rythm/f45cbc8.modern.js" as="script"><style data-vue-ssr-id="019e1cef:0 84455a9e:0 24685a92:0 9c20b24e:0 121e9704:0 0491082a:0 61095f7c:0 1b230f83:0 219d3948:0 5b05be01:0 2d1b917c:0 71e039f4:0 2298d8e6:0 2ee0c9da:0 64ef5534:0 248264b9:0 90f26efa:0 4a0de6aa:0 41fcbe16:0 5ce4432d:0 fba0fe06:0 415bd1ee:0 a2baf294:0 50afb008:0 6d133cd1:0 a185333c:0 c323fe38:0 56486bb0:0 b6677c2c:0">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#e5393d;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}@font-face{font-family:Inter;font-style:normal;font-weight:400;font-display:swap;src:url(https://rythm.fm/_rythm/fonts/Inter-Regular.c8ba52b.woff2) format("woff2"),url(https://rythm.fm/_rythm/fonts/Inter-Regular.8c206db.woff) format("woff")}@font-face{font-family:Inter;font-style:normal;font-weight:500;font-display:swap;src:url(https://rythm.fm/_rythm/fonts/Inter-Medium.293fd13.woff2) format("woff2"),url(https://rythm.fm/_rythm/fonts/Inter-Medium.9053572.woff) format("woff")}@font-face{font-family:Inter;font-style:normal;font-weight:600;font-display:swap;src:url(https://rythm.fm/_rythm/fonts/Inter-SemiBold.b5f0f10.woff2) format("woff2"),url(https://rythm.fm/_rythm/fonts/Inter-SemiBold.cca62d2.woff) format("woff")}@font-face{font-family:Inter;font-style:normal;font-weight:800;font-display:swap;src:url(https://rythm.fm/_rythm/fonts/Inter-ExtraBold.cbe0ae4.woff2) format("woff2"),url(https://rythm.fm/_rythm/fonts/Inter-ExtraBold.d0fa3bb.woff) format("woff")}html{font-family:Inter,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;word-spacing:1px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box}body,html{background:#141518;color:hsla(0,0%,100%,.7)}*,:after,:before{box-sizing:border-box;margin:0}.wrapper{max-width:100%;overflow:hidden;min-height:100vh;display:flex;flex-direction:column}.wrapper>div{width:100%}.navbar[data-v-1ede0f46]{position:relative}.navbar.bg[data-v-1ede0f46]{background:hsla(0,0%,100%,.03)}.navbar>.container[data-v-1ede0f46]>:first-child,.navbar>.container[data-v-1ede0f46]>:last-child{line-height:0}.navbar>.container[data-v-1ede0f46]>:first-child,.navbar>.container[data-v-1ede0f46]>:first-child:hover,.navbar>.container[data-v-1ede0f46]>:last-child,.navbar>.container[data-v-1ede0f46]>:last-child:hover{text-decoration:none}.navbar>.container[data-v-1ede0f46]>:first-child{padding:0;margin:48px 12px}@media only screen and (max-width:960px){.navbar>.container[data-v-1ede0f46]>:first-child{margin:48px 16px 48px 0}}@media only screen and (max-width:720px){.navbar>.container[data-v-1ede0f46]>:first-child{margin:24px 0}}.navbar>.container>:first-child>svg[data-v-1ede0f46]{width:auto;height:24px}.navbar>.container[data-v-1ede0f46]>:last-child{position:absolute;top:12px;right:16px;margin:0;padding:8px}.navbar>.container>div[data-v-1ede0f46],.navbar>.container[data-v-1ede0f46]{display:flex;align-items:center}@media only screen and (max-width:720px){.navbar>.container>div[data-v-1ede0f46],.navbar>.container[data-v-1ede0f46]{flex-direction:column;align-items:flex-start}}.navbar>.container>div[data-v-1ede0f46]{justify-content:flex-end;flex-grow:1}@media only screen and (max-width:720px){.navbar>.container>div[data-v-1ede0f46]{border-bottom:1px solid hsla(0,0%,100%,.18);width:100%;padding:4px 0 16px}}@media only screen and (max-width:720px){.navbar>.container>div.mobile-hidden[data-v-1ede0f46]{display:none}}.navbar>.container>div>.icon[data-v-1ede0f46]{line-height:0;margin:0 8px 0 24px;padding:6px;border-radius:50%;background:hsla(0,0%,100%,.05);transition:background .2s ease-in-out}@media only screen and (max-width:720px){.navbar>.container>div>.icon[data-v-1ede0f46]{margin:8px 0}}.navbar>.container>div>.icon[data-v-1ede0f46]:hover{background:hsla(0,0%,100%,.15)}.navbar>.container>div>.icon:hover>svg path[data-v-1ede0f46]{fill-opacity:.8}.navbar>.container>div>.icon>svg[data-v-1ede0f46]{width:22px;height:22px}@media only screen and (max-width:960px){.navbar>.container a[data-v-1ede0f46]{padding:8px 12px;margin:0 8px}}@media only screen and (max-width:720px){.navbar>.container a[data-v-1ede0f46]{padding:8px 0;margin:8px 0}}@media only screen and (max-width:720px){.navbar>.container a.mobile-hidden[data-v-1ede0f46]{display:none}}@media only screen and (max-width:960px)and (min-width:721px){.navbar>.container a.tablet-hidden[data-v-1ede0f46]{display:none}}@media only screen and (min-width:961px){.navbar>.container a.desktop-hidden[data-v-1ede0f46]{display:none}}.navbar>.container a svg[data-v-1ede0f46]{color:#fff;width:32px;height:32px}.container[data-v-6130c220]{max-width:1280px;margin:0 auto}@media only screen and (max-width:1280px){.container[data-v-6130c220]{max-width:calc(100% - 32px);margin:0 16px}}@media only screen and (max-width:960px){.container[data-v-6130c220]{max-width:calc(100% - 48px);margin:0 24px}}.navbar-link[data-v-235d3f2d]{color:hsla(0,0%,100%,.8);text-decoration:none;transition:color .2s ease-in-out;padding:4px;margin:0 8px;font-weight:400}@media only screen and (max-width:960px){.navbar-link[data-v-235d3f2d]{padding:8px;margin:4px 0}}.navbar-link.active[data-v-235d3f2d]{color:#fff;font-weight:500}.navbar-link[data-v-235d3f2d]:hover{color:#fff;text-decoration:underline}a[data-v-db920a26]{color:#61a6ff;transition:color .2s ease-in-out}a[data-v-db920a26]:hover{color:#fff}a.discord[data-v-db920a26]{color:#7289da}a.discord[data-v-db920a26]:hover{color:rgba(114,137,218,.8)}.hero[data-v-05cfee6a]{min-height:80vh}@media only screen and (max-width:960px){.hero .tracks[data-v-05cfee6a]{margin:16px 0 32px}}.hero .tracks .ghosts[data-v-05cfee6a],.hero .tracks[data-v-05cfee6a]{display:flex;flex-wrap:nowrap;overflow:visible}.hero .tracks .player[data-v-05cfee6a]{margin:0 16px 0 0}.hero .tracks .ghosts[data-v-05cfee6a]{transform:scale(.8);transform-origin:left center;opacity:.6}.hero .tracks .ghosts .player[data-v-05cfee6a]{margin:0 20px 0 0}.container[data-v-411fd2c2]{display:flex;align-items:center;width:100%}@media only screen and (max-width:960px){.container[data-v-411fd2c2]{flex-direction:column;align-items:flex-start;justify-content:space-evenly}}.container .graphic[data-v-411fd2c2],.container .text[data-v-411fd2c2]{flex:1 0 50%}@media only screen and (max-width:960px){.container .graphic[data-v-411fd2c2],.container .text[data-v-411fd2c2]{flex:0 0 auto;margin:16px 0;padding:0}}@media only screen and (min-width:959px){.container .text[data-v-411fd2c2]{padding:0 72px 0 0;margin:0 16px 0 0}}.eyebrow[data-v-791bfeb8]{color:#e5393d;text-transform:uppercase;font-weight:500;font-size:17px;letter-spacing:1px;line-height:1.25}.headline[data-v-64200b94]{color:#eef1f5;font-weight:900;font-size:32px;line-height:1.25;margin:8px 0}.buttons[data-v-749fe71c]{display:flex;margin:44px -8px 0;flex-wrap:wrap}.buttons .button[data-v-749fe71c]{margin:0 8px 8px}.button[data-v-488640ac]{padding:14px 28px;text-decoration:none;border-radius:4px;font-weight:600;display:inline-block;transition:color .2s ease-in-out,background .2s ease-in-out;background:rgba(114,118,135,.4);color:#fff}.button[data-v-488640ac]:not([disabled]):focus,.button[data-v-488640ac]:not([disabled]):hover{background:rgba(114,118,135,.6);color:#fff}.button[data-v-488640ac]:not([disabled]):focus{outline:2px solid rgba(97,166,255,.85)}.button.dim[data-v-488640ac]{background:rgba(114,118,135,.2);color:#fff}.button.dim[data-v-488640ac]:not([disabled]):focus,.button.dim[data-v-488640ac]:not([disabled]):hover{background:rgba(114,118,135,.4);color:#fff}.button.light[data-v-488640ac]{background:#fff;color:#141518}.button.light[data-v-488640ac]:not([disabled]):focus,.button.light[data-v-488640ac]:not([disabled]):hover{background:hsla(0,0%,100%,.8);color:#141518}.button.outline[data-v-488640ac]{background:0 0;box-shadow:inset 0 0 0 1px #fff;color:#fff}.button.outline[data-v-488640ac]:not([disabled]):focus,.button.outline[data-v-488640ac]:not([disabled]):hover{background:#fff;color:#141518}.button.discord[data-v-488640ac]{background:#7289da;color:#fff}.button.discord[data-v-488640ac]:not([disabled]):focus,.button.discord[data-v-488640ac]:not([disabled]):hover{background:rgba(114,137,218,.8);color:#fff}.button[disabled][data-v-488640ac]{opacity:.5;cursor:not-allowed}.button.slim[data-v-488640ac]{padding:10px 18px;font-size:13px}.player[data-v-877e0c92]{display:flex;flex-direction:column;background:#212226;padding:37px 34px;border-radius:6px;border:1px solid #25262b;max-width:300px}.player>div[data-v-877e0c92]:first-child{margin:0 0 24px;width:100%}.player>div:first-child img[data-v-877e0c92]{width:100%;height:auto;box-shadow:0 5px 5px rgba(0,0,0,.15);border-radius:4px}.player>div[data-v-877e0c92]:last-child{margin:auto 0 0}.player>div:last-child .progress[data-v-877e0c92]{margin:20px 0}.player>div:last-child .controls[data-v-877e0c92]{margin:0 auto}.player>p[data-v-877e0c92]{color:#fff;font-weight:700}.player>p small[data-v-877e0c92]{opacity:.8;font-weight:400;font-size:10px}.progress[data-v-1ceabd16]{display:flex;flex-direction:column;width:100%}.progress .bar[data-v-1ceabd16]{position:relative;display:flex;margin:0 0 8px}.progress .bar.empty>div[data-v-1ceabd16]:first-child{display:none}.progress .bar.empty>div[data-v-1ceabd16]:nth-child(2){border-radius:4px}.progress .bar.empty>div[data-v-1ceabd16]:nth-child(3){display:none}.progress .bar>div[data-v-1ceabd16]{height:4px}.progress .bar>div[data-v-1ceabd16]:first-child{background:#e5393d;border-radius:4px 0 0 4px}.progress .bar>div[data-v-1ceabd16]:nth-child(2){background:#494949;border-radius:0 4px 4px 0}.progress .bar>div[data-v-1ceabd16]:nth-child(3){position:absolute;top:50%;transform:translate(-50%,-50%);height:16px;width:16px;border-radius:50%;background:#e5393d;border:2px solid #212226}.progress .timestamps[data-v-1ceabd16]{display:flex;justify-content:space-between}.progress .timestamps p[data-v-1ceabd16]{font-size:9px}.controls[data-v-3e28a153]{display:flex;align-items:center}.controls>[data-v-3e28a153]{margin:0 12px}.controls .back[data-v-3e28a153],.controls .next[data-v-3e28a153],.controls .shuffle[data-v-3e28a153]{height:12px}.controls .repeat[data-v-3e28a153]{height:14px}.controls .pause[data-v-3e28a153],.controls .play[data-v-3e28a153]{height:20px}.controls .highlight[data-v-3e28a153]{background:#28292e;padding:12px 16px;border-radius:6px;line-height:0;border:1px solid #32343c}.stats[data-v-09b7f736]{background:hsla(0,0%,100%,.03)}.stats .container[data-v-09b7f736]{display:flex;align-items:center;flex-direction:column;padding:160px 0}@media only screen and (max-width:960px){.stats .container[data-v-09b7f736]{padding:80px 0}}.stats .container .numbers[data-v-09b7f736]{display:flex;margin:60px auto 0;background:rgba(43,44,50,.24);padding:44px 76px 0;border-radius:6px;justify-content:center;flex-wrap:wrap}@media only screen and (max-width:960px){.stats .container .numbers[data-v-09b7f736]{padding:44px 0 0}}.stats .container .numbers h2[data-v-09b7f736]{text-align:center;margin:0 60px 44px;font-size:28px;color:#fff;font-weight:600;line-height:1.5}.stats .container .numbers h2 small[data-v-09b7f736]{display:block;font-size:14px;color:hsla(0,0%,100%,.65);font-weight:400}.carousel[data-v-3ef33ec0]{min-height:100vh;position:relative;display:flex;align-items:center;overflow-x:hidden}@media only screen and (max-width:960px){.carousel[data-v-3ef33ec0]{align-items:flex-start}}.carousel .slide[data-v-3ef33ec0]{flex:1 0 100%;align-items:center;width:100%;height:100%;position:relative;transition:left .6s ease-in-out}.carousel .dots[data-v-3ef33ec0],.carousel .slide[data-v-3ef33ec0]{display:flex;justify-content:center}.carousel .dots[data-v-3ef33ec0]{position:absolute;bottom:16px;left:50%;transform:translateX(-50%)}.carousel .dots a[data-v-3ef33ec0]{width:14px;height:14px;margin:4px;border-radius:50%;background:#e1e1e1;opacity:.25;cursor:pointer;transition:opacity .2s ease-in-out}@media only screen and (max-width:960px){.carousel .dots a[data-v-3ef33ec0]{width:16px;height:16px;margin:4px 12px 8px}}.carousel .dots a.active[data-v-3ef33ec0],.carousel .dots a[data-v-3ef33ec0]:hover{opacity:1}.carousel .arrow[data-v-3ef33ec0]{position:absolute;top:calc(50% - 12px);padding:16px;margin:0 32px;opacity:.7;cursor:pointer;transition:opacity .2s ease-in-out}@media only screen and (max-width:960px){.carousel .arrow[data-v-3ef33ec0]{top:auto;bottom:0;margin:0 12px}}.carousel .arrow[data-v-3ef33ec0]:hover{opacity:1}.carousel .arrow.left[data-v-3ef33ec0]{left:0}.carousel .arrow.right[data-v-3ef33ec0]{right:0}.carousel .arrow svg[data-v-3ef33ec0]{width:16px}.container[data-v-090e8a75]{height:100%}@media only screen and (max-width:1504px)and (min-width:960px){.container[data-v-090e8a75]{max-width:calc(100% - 224px)}}.container[data-v-090e8a75] .graphic{height:100%;display:flex;align-items:center;justify-content:center}@media only screen and (max-width:960px){.container[data-v-090e8a75] .graphic{margin:0;padding:16px 0 48px;height:auto;width:100%}}.container[data-v-090e8a75] .graphic img{max-width:100%;max-height:100%;width:100%;height:100%;-o-object-fit:contain;object-fit:contain}.container[data-v-1fbd00f5]{display:flex;align-items:center;flex-direction:column;padding:160px 0}@media only screen and (max-width:960px){.container[data-v-1fbd00f5]{align-items:flex-start;padding:80px 0}}.container .features[data-v-1fbd00f5]{display:flex;flex-wrap:wrap;margin:64px}@media only screen and (max-width:960px){.container .features[data-v-1fbd00f5]{flex-direction:column;margin:64px 0}}.container .features .feature[data-v-1fbd00f5]{flex:0 0 50%}.feature[data-v-5061f564]{display:flex;padding:32px 64px}@media only screen and (max-width:960px){.feature[data-v-5061f564]{padding:32px 0}}.feature .icon[data-v-5061f564]{flex:0 0 auto;display:flex;justify-content:center;align-items:center;width:48px;height:48px;background:hsla(0,0%,100%,.06);border-radius:50%;margin:0 24px 0 0}.feature .icon svg[data-v-5061f564]{width:24px;max-width:24px;max-height:24px;height:auto}.feature .info h2[data-v-5061f564]{font-size:20px;font-weight:700;color:#eef1f5;margin:0 0 12px}.links[data-v-57b56da4]{background:hsla(0,0%,100%,.03)}.links .container[data-v-57b56da4]{display:flex;align-items:center;flex-direction:column;padding:160px 0}@media only screen and (max-width:960px){.links .container[data-v-57b56da4]{align-items:flex-start;padding:80px 0}}.links .container .link-boxes[data-v-57b56da4]{display:flex;margin:60px -16px 0}@media only screen and (max-width:960px){.links .container .link-boxes[data-v-57b56da4]{flex-direction:column;margin:32px -16px 0}}.links .container .link-boxes .link-box[data-v-57b56da4]{flex:1;margin:16px}.link-box[data-v-d540de30]{padding:48px;background:#323337;border-radius:4px;display:block;text-decoration:none;text-align:center;transition:background .2s ease-in-out}.link-box[data-v-d540de30]:hover{background:#1d1e22}.link-box:hover span[data-v-d540de30]:first-child{color:#e5393d;text-decoration:underline}.link-box span[data-v-d540de30]{display:block}.link-box span[data-v-d540de30]:first-child{font-size:17px;font-weight:700;color:#eef1f5;margin:0 0 8px;transition:color .2s ease-in-out}.link-box span[data-v-d540de30]:last-child{font-size:15px;font-weight:400;color:#bec3cd}.footer[data-v-43de8466]{background:#131416;padding:40px 0 12px;margin:auto 0 0}.main-footer[data-v-79f581dd]{margin:0 -16px;justify-content:space-between}@media only screen and (max-width:960px){.main-footer[data-v-79f581dd]{margin:16px 0}}.main-footer .right[data-v-79f581dd],.main-footer[data-v-79f581dd]{display:flex}@media only screen and (max-width:960px){.main-footer .right[data-v-79f581dd],.main-footer[data-v-79f581dd]{flex-direction:column}}.main-footer .right>div[data-v-79f581dd],.main-footer>div[data-v-79f581dd]{margin:0 16px;flex:1}@media only screen and (max-width:960px){.main-footer .right>div[data-v-79f581dd],.main-footer>div[data-v-79f581dd]{margin:16px 0}}.main-footer .brand[data-v-79f581dd]{padding:0 96px 0 0}.main-footer .brand svg[data-v-79f581dd]{width:56px;height:56px}.main-footer .brand p[data-v-79f581dd]{margin:28px 0 0;color:#fff;font-size:14px}.main-footer .brand a[data-v-79f581dd]{text-decoration:none}.main-footer .brand a[data-v-79f581dd]:hover{text-decoration:underline}.main-footer .right[data-v-79f581dd]{margin:0;flex-grow:2}@media only screen and (max-width:960px){.main-footer .right .list[data-v-79f581dd]:not(:first-of-type){display:none}}.main-footer .right .premium[data-v-79f581dd]{flex-grow:1.5}.main-footer .right .premium p[data-v-79f581dd]{color:hsla(0,0%,100%,.7);font-size:13px}.main-footer .right .premium p[data-v-79f581dd]:not(:first-child){margin:16px 0}.main-footer .right .premium p b[data-v-79f581dd]{color:#fff;font-size:16px;font-weight:500}.list>p[data-v-75d7e7ea]{color:#c2c5c9;font-size:13px;font-weight:400;letter-spacing:1px;margin:0 0 4px}.list ul[data-v-75d7e7ea]{padding:0}.list ul li[data-v-75d7e7ea],.list ul[data-v-75d7e7ea]{list-style:none}.list ul li[data-v-75d7e7ea]{margin:16px 0 0}.footer-link[data-v-8c7e145a]{font-size:15px;font-weight:500;color:#eef1f5;text-decoration:none}.footer-link[data-v-8c7e145a]:hover{color:#e5393d;text-decoration:underline}.sub-footer[data-v-1fe67da8]{display:flex;justify-content:space-between;padding:20px 0;border-top:1px solid hsla(0,0%,100%,.18);margin:40px 0 0}@media only screen and (max-width:960px){.sub-footer[data-v-1fe67da8]{flex-direction:column-reverse}}.sub-footer>div[data-v-1fe67da8]{display:flex}@media only screen and (max-width:960px){.sub-footer>div[data-v-1fe67da8]{margin:0 0 8px;flex-direction:column}}a[data-v-dbf2eb6a]{padding:1.6px 12px;text-decoration:none}@media only screen and (max-width:960px){a[data-v-dbf2eb6a]{padding:8px 0}}a[data-v-dbf2eb6a]:hover{text-decoration:underline}a.plain[data-v-dbf2eb6a]{color:hsla(0,0%,100%,.7)}a.plain[data-v-dbf2eb6a]:hover{color:#fff}a[data-v-5afb7022]{position:fixed;bottom:30px;right:30px;background:#7289da;border-radius:50%;transition:background .2s ease-in-out}a[data-v-5afb7022]:hover{background:rgba(114,137,218,.8)}a svg[data-v-5afb7022]{width:32px;height:32px;margin:16px}</style><link rel="preload" href="https://rythm.fm/_rythm/static/1628602820/payload.js" as="script"><link rel="preload" href="https://rythm.fm/_rythm/static/1628602820/manifest.js" as="script">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+         <link rel="stylesheet" href="index.css">        
+        <link rel="stylesheet" href="commands.css">
+
+    </head>
+
+
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <div class="d-flex justify-content-center command_head" style:"background-color:#cf67b0;" >
+      </div>
+      
+      <section id="botcommands" class="botcommands">
+        <h1> Lệnh Bot Hibiki Ban Mai </h1>
+        <p>
+          <a href="https://discord.com/api/oauth2/authorize?client_id=873867519784550441&permissions=8&scope=bot%20applications.commands">
+            <u>Mời</u> Hibiki Ban Mai vào máy chủ của bạn với quyền sử dụng lệnh <u>Gạch Chéo</u>. Lệnh Gạch Chéo hiện vẫn chưa thể hoạt động và đang trong quá trình phát triển!</p>
+        <!-- Command Menu -->
+
+        <div class="container px-lg-5" id="commands_menu">
+          <div class="row">
+            <div class="col-sm-3" id="category">
+              <div class="list-group" id="myList" role="tablist">
+                
+                  <a class="list-group-item list-group-item-action active"  data-bs-toggle="list" href="#Filter" role="tab" aria-controls="Filter">Moderation</a>
+                
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Info" role="tab" aria-controls="Info">Thông tin</a>
+                
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Music" role="tab" aria-controls="Music">Nhạc</a>
+                
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Queue" role="tab" aria-controls="Queue">Admin</a>
+                
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Settings" role="tab" aria-controls="Settings">Cài đặt</a>
+                
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Song" role="tab" aria-controls="Song">Tickets</a>
+
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Song" role="tab" aria-controls="Utitily">Tiện ích</a>
+
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Song" role="tab" aria-controls="Search">Tìm kiếm</a>
+
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Song" role="tab" aria-controls="ReactionRole">Reaction Role</a>
+
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Song" role="tab" aria-controls="Yt-poster">Youtube Poster</a>
+
+                  <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#Song" role="tab" aria-controls="Fun">Trò vui</a> 
+                
+              </div>
+            </div>
+          <div class="col-sm-9">
+            <div class="tab-content">
+              
+                  <div class="tab-pane fade show active" id="Filter" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="accordion" id="acc_Filter">
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_addfilter">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_addfilter" 
+                              aria-expanded="false"
+                              aria-controls="addfilter"
+                            >
+                              ban
+                            </button>
+                          </h2>
+                          <div id="c_addfilter" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_addfilter" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Cấm một người dùng khỏi máy chủ<br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[ban]</small>
+                            
+                            <small class="text-muted">[cấm]</small>
+                            
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!ban | {prefix}ban | @đề cập ban &lt;@đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_tempban">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_tempban" 
+                              aria-expanded="false"
+                              aria-controls="tempban"
+                            >
+                              tempban
+                            </button>
+                          </h2>
+                          <div id="c_tempban" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_tempban" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Cấm một người dùng khỏi máy chủ trong một khoảng thời gian <br>
+                            <code>Các cách gọi khác : </code>
+
+                            <small class="text-muted">[bantime]</small>
+
+                            <small class="text-muted">[timeban]</small>
+
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!tempban | {prefix}tempban | @đề cập tempban &lt;@đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_unban">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_unban" 
+                              aria-expanded="false"
+                              aria-controls="unban"
+                            >
+                              unban
+                            </button>
+                          </h2>
+                          <div id="c_unban" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_unban" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Hủy lệnh cấm một người dùng đã bị cấm từ trước đó <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!unban | {prefix}unban | @đề cập unban &lt;@đề cập người dùng bị cấm&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_custombassboost">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_custombassboost" 
+                              aria-expanded="false"
+                              aria-controls="custombassboost"
+                            >
+                              bug
+                            </button>
+                          </h2>
+                          <div id="c_custombassboost" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_custombassboost" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Báo cáo vấn đề, lỗi của bot với Developer <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[report]</small>   
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!bug | {prefix}bug | @đề cập bug &lt;Vấn đề muốn báo cáo lại&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_customspeed">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_customspeed" 
+                              aria-expanded="false"
+                              aria-controls="customspeed"
+                            >
+                              kick
+                            </button>
+                          </h2>
+                          <div id="c_customspeed" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_customspeed" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Loại bỏ một người dùng ra khỏi máy chủ <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[sút]</small>
+                            
+                            <small class="text-muted">[đá]</small>
+                            
+                            <small class="text-muted">[biến]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!kick | {prefix}kick | @đề cập kick &lt;@đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_filters">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_filters" 
+                              aria-expanded="false"
+                              aria-controls="filters"
+                            >
+                              mute
+                            </button>
+                          </h2>
+                          <div id="c_filters" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_filters" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Mute một ai đó trong server <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!mute | {prefix}mute | @đề cập mute &lt;@Đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_removefilter">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_removefilter" 
+                              aria-expanded="false"
+                              aria-controls="removefilter"
+                            >
+                              unmute
+                            </button>
+                          </h2>
+                          <div id="c_removefilter" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_removefilter" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Gỡ mute cho một ai đó đã bị mute trước đó <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!unmute | {prefix}unmute | @đề cập unmute &lt;@đề cập người dùng bị mute&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_setfilter">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_setfilter" 
+                              aria-expanded="false"
+                              aria-controls="setfilter"
+                            >
+                              nuke
+                            </button>
+                          </h2>
+                          <div id="c_setfilter" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_setfilter" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Nuke kênh chat (cảnh báo không có hỏi trước, nuke là bay hết tin nhắn trong kênh chat đó luôn XD) <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!nuke | {prefix}nuke | @đề cập nuke</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_report">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_report" 
+                              aria-expanded="false"
+                              aria-controls="report"
+                            >
+                              report
+                            </button>
+                          </h2>
+                          <div id="c_report" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_report" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Báo cáo một người dùng với Mod, Admin <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!report | {prefix}report | @đề cập report &lt;@đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_warn">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_warn" 
+                              aria-expanded="false"
+                              aria-controls="warn"
+                            >
+                              warn
+                            </button>
+                          </h2>
+                          <div id="c_warn" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_warn" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Cảnh báo một người dùng <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!warn | {prefix}warn | @đề cập warn &lt;@đề cập người dùng&gt; &lt;Lý do cảnh cáo&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_warnings">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_warnings" 
+                              aria-expanded="false"
+                              aria-controls="warnings"
+                            >
+                              warnings
+                            </button>
+                          </h2>
+                          <div id="c_warnings" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_warnings" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Xem tổng số lượt người dùng bị cảnh cáo <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!warnings | {prefix}warnings | @đề cập warnings &lt;@đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_resetwarns">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_resetwarns" 
+                              aria-expanded="false"
+                              aria-controls="resetwarns"
+                            >
+                              resetwarns
+                            </button>
+                          </h2>
+                          <div id="c_resetwarns" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_resetwarns" 
+                            data-bs-parent="#acc_Filter">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Reset tổng số lượt cảnh cáo của một member <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!resetwarns | {prefix}resetwarns | @đề cập resetwarns &lt;@đề cập người dùng&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              
+                  <div class="tab-pane fade show " id="Info" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="accordion" id="acc_Info">
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_botinfo">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_botinfo" 
+                              aria-expanded="false"
+                              aria-controls="botinfo"
+                            >
+                              botinfo
+                            </button>
+                          </h2>
+                          <div id="c_botinfo" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_botinfo" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Thông tin về bot <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[info]</small>
+                            <small class="text-muted">[stats]</small>
+                            <small class="text-muted">[uptime]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!botinfo | {prefix}botinfo | @đề cập botinfo</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_roleinfo">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_roleinfo" 
+                              aria-expanded="false"
+                              aria-controls="roleinfo"
+                            >
+                              roleinfo
+                            </button>
+                          </h2>
+                          <div id="c_roleinfo" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_roleinfo" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Hiển thị thông tin role <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!roleinfo | {prefix}roleinfo | @đề cập roleinfo &lt;@đề cập role&gt; | &lt;ID Role&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_serverinfo">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_serverinfo" 
+                              aria-expanded="false"
+                              aria-controls="serverinfo"
+                            >
+                              serverinfo
+                            </button>
+                          </h2>
+                          <div id="c_serverinfo" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_serverinfo" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Hiển thị thông tin máy chủ (hiện đang không sử dụng được) <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!serverinfo | {prefix}serveinfo | @đề cập serverinfo</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_help">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_help" 
+                              aria-expanded="false"
+                              aria-controls="help"
+                            >
+                              help
+                            </button>
+                          </h2>
+                          <div id="c_help" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_help" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Hiển thị bảng danh mục các lệnh <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[h]</small>
+                            
+                            <small class="text-muted">[halp]</small>
+                            
+                            <small class="text-muted">[helpme]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!help | {prefix}help | @đề cập help + &lt;[tên danh mục lệnh] | [tên lệnh]&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_invite">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_invite" 
+                              aria-expanded="false"
+                              aria-controls="invite"
+                            >
+                              invite
+                            </button>
+                          </h2>
+                          <div id="c_invite" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_invite" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Gửi cho bạn link mời Hibiki Ban Mai <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[inviteme]</small>
+                            
+                            <small class="text-muted">[addme]</small>
+
+                            <small class="text-muted">[mời]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!invite | {prefix}invite | @đề cập invite</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_ping">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_ping" 
+                              aria-expanded="false"
+                              aria-controls="ping"
+                            >
+                              ping
+                            </button>
+                          </h2>
+                          <div id="c_ping" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_ping" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Xem thời gian phản hồi của Bot <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[latency]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!ping | {prefix}ping | @đề cập ping</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_donate">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_donate" 
+                              aria-expanded="false"
+                              aria-controls="donate"
+                            >
+                              donate
+                            </button>
+                          </h2>
+                          <div id="c_donate" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_donate" 
+                            data-bs-parent="#acc_Info">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Gửi tin nhắn DMs với bạn về thông tin donate ủng hộ :3 <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[support]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!donate | {prefix}donate | @đề cập donate</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              
+                  <div class="tab-pane fade show " id="Music" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="accordion" id="acc_Music">
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_join">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_join" 
+                              aria-expanded="false"
+                              aria-controls="join"
+                            >
+                              join
+                            </button>
+                          </h2>
+                          <div id="c_join" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_join" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Gọi bot vào voice <br>
+                            <code>Các cách gọi khác : </code>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!join | {prefix}join |@đề cập join</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_leave">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_leave" 
+                              aria-expanded="false"
+                              aria-controls="leave"
+                            >
+                              leave
+                            </button>
+                          </h2>
+                          <div id="c_leave" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_leave" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Thoát bot ra khỏi voice <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[dis]</small>
+                            <small class="text-muted">[disconnect]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!leave | {prefix}leave |@đề cập leave</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_play">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_play" 
+                              aria-expanded="false"
+                              aria-controls="play"
+                            >
+                              play
+                            </button>
+                          </h2>
+                          <div id="c_play" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_play" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Phát một bài nhạc hoặc danh sách phát youtube (không hỗ trợ tìm kiếm bằng tên bài, chỉ hỗ trợ link và ID) <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[p]</small>
+                            
+                            <small class="text-muted">[pley]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>niji!play | {prefix}play |@đề cập play &lt;Link Video | ID Video | Link Playlist | ID Playlist&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_playskip">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_playskip" 
+                              aria-expanded="false"
+                              aria-controls="playskip"
+                            >
+                              +playskip
+                            </button>
+                          </h2>
+                          <div id="c_playskip" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_playskip" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Plays a Song/Playlist and skips! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+ps]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>playskip &lt;Search/link&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_playtop">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_playtop" 
+                              aria-expanded="false"
+                              aria-controls="playtop"
+                            >
+                              +playtop
+                            </button>
+                          </h2>
+                          <div id="c_playtop" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_playtop" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Plays a Song/Playlist and adds it to the Top! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+pt]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>playtop &lt;Search/link&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_skip">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_skip" 
+                              aria-expanded="false"
+                              aria-controls="skip"
+                            >
+                              +skip
+                            </button>
+                          </h2>
+                          <div id="c_skip" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_skip" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Skips the Current Track <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+s]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>skip</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_stop">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_stop" 
+                              aria-expanded="false"
+                              aria-controls="stop"
+                            >
+                              +stop
+                            </button>
+                          </h2>
+                          <div id="c_stop" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_stop" 
+                            data-bs-parent="#acc_Music">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Stops playing and leaves the Channel! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+leave]</small>
+                            
+                            <small class="text-muted">[+break]</small>
+                            
+                            <small class="text-muted">[+destroy]</small>
+                            
+                            <small class="text-muted">[+dis]</small>
+                            
+                            <small class="text-muted">[+disconnect]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>stop</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+              
+                  <div class="tab-pane fade show " id="Queue" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="accordion" id="acc_Queue">
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_clear">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_clear" 
+                              aria-expanded="false"
+                              aria-controls="clear"
+                            >
+                              +clear
+                            </button>
+                          </h2>
+                          <div id="c_clear" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_clear" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Clears the Queue <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+clearqueue]</small>
+                            
+                            <small class="text-muted">[+clearq]</small>
+                            
+                            <small class="text-muted">[+clearqu]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>clear</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_jump">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_jump" 
+                              aria-expanded="false"
+                              aria-controls="jump"
+                            >
+                              +jump
+                            </button>
+                          </h2>
+                          <div id="c_jump" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_jump" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Jumps to a specific Song in the Queue <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+jump]</small>
+                            
+                            <small class="text-muted">[+skipto]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>jump &lt;SongPosition&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_list">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_list" 
+                              aria-expanded="false"
+                              aria-controls="list"
+                            >
+                              +list
+                            </button>
+                          </h2>
+                          <div id="c_list" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_list" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Lists the current Queue <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+list]</small>
+                            
+                            <small class="text-muted">[+queue]</small>
+                            
+                            <small class="text-muted">[+queuelist]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>list</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_loop">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_loop" 
+                              aria-expanded="false"
+                              aria-controls="loop"
+                            >
+                              +loop
+                            </button>
+                          </h2>
+                          <div id="c_loop" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_loop" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Enable/Disable the Song- / Queue-Loop <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+repeat]</small>
+                            
+                            <small class="text-muted">[+repeatmode]</small>
+                            
+                            <small class="text-muted">[+l]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>loop &lt;song/queue/off&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_move">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_move" 
+                              aria-expanded="false"
+                              aria-controls="move"
+                            >
+                              +move
+                            </button>
+                          </h2>
+                          <div id="c_move" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_move" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Moves one Song to another Place <br>
+                            <code>Các cách gọi khác : </code><br>
+                            <code>Sử dụng : </code><small><kbd>move &lt;WhatSong&gt; &lt;ToWhere&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_previous">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_previous" 
+                              aria-expanded="false"
+                              aria-controls="previous"
+                            >
+                              +previous
+                            </button>
+                          </h2>
+                          <div id="c_previous" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_previous" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Plays the previous Song! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+pre]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>previous</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_remove">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_remove" 
+                              aria-expanded="false"
+                              aria-controls="remove"
+                            >
+                              +remove
+                            </button>
+                          </h2>
+                          <div id="c_remove" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_remove" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Removes one+ Song(s) <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+delete]</small>
+                            
+                            <small class="text-muted">[+del]</small>
+                            
+                            <small class="text-muted">[+rem]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>remove &lt;What_song&gt; [Amount]</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_shuffle">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_shuffle" 
+                              aria-expanded="false"
+                              aria-controls="shuffle"
+                            >
+                              +shuffle
+                            </button>
+                          </h2>
+                          <div id="c_shuffle" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_shuffle" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Shuffles (Mixes) The Queue <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+mix]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>shuffle</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_status">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_status" 
+                              aria-expanded="false"
+                              aria-controls="status"
+                            >
+                              +status
+                            </button>
+                          </h2>
+                          <div id="c_status" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_status" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Shows the Queue Status <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+stats]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>status</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_volume">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_volume" 
+                              aria-expanded="false"
+                              aria-controls="volume"
+                            >
+                              +volume
+                            </button>
+                          </h2>
+                          <div id="c_volume" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_volume" 
+                            data-bs-parent="#acc_Queue">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Adjusts the Volume of the Music <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+vol]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>volume &lt;newVolume&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+              
+                  <div class="tab-pane fade show " id="Settings" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="accordion" id="acc_Settings">
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_botchat">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_botchat" 
+                              aria-expanded="false"
+                              aria-controls="botchat"
+                            >
+                              +botchat
+                            </button>
+                          </h2>
+                          <div id="c_botchat" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_botchat" 
+                            data-bs-parent="#acc_Settings">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Manages the Bot-Chats! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+botch]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>botchat &lt;add/remove&gt; &lt;#Channel&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_defaultautoplay">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_defaultautoplay" 
+                              aria-expanded="false"
+                              aria-controls="defaultautoplay"
+                            >
+                              +defaultautoplay
+                            </button>
+                          </h2>
+                          <div id="c_defaultautoplay" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_defaultautoplay" 
+                            data-bs-parent="#acc_Settings">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Defines if Autoplay should be enabled on default or not! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+dautoplay]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>defaultautoplay</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_defaultvolume">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_defaultvolume" 
+                              aria-expanded="false"
+                              aria-controls="defaultvolume"
+                            >
+                              +defaultvolume
+                            </button>
+                          </h2>
+                          <div id="c_defaultvolume" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_defaultvolume" 
+                            data-bs-parent="#acc_Settings">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Defines the Default Volume of the Bot! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+dvolume]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>defaultvolume &lt;Percentage&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_dj">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_dj" 
+                              aria-expanded="false"
+                              aria-controls="dj"
+                            >
+                              +dj
+                            </button>
+                          </h2>
+                          <div id="c_dj" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_dj" 
+                            data-bs-parent="#acc_Settings">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Manages the Djs! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+djrole]</small>
+                            
+                            <small class="text-muted">[+role]</small>
+                            
+                            <small class="text-muted">[+drole]</small>
+                            
+                            <small class="text-muted">[+djs]</small>
+                            
+                            <small class="text-muted">[+dj-role]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>dj &lt;add/remove&gt; &lt;@Role&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_prefix">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_prefix" 
+                              aria-expanded="false"
+                              aria-controls="prefix"
+                            >
+                              +prefix
+                            </button>
+                          </h2>
+                          <div id="c_prefix" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_prefix" 
+                            data-bs-parent="#acc_Settings">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Changes the Prefix of the Bot! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+setprefix]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>prefix &lt;newPrefix&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+              
+                  <div class="tab-pane fade show " id="Song" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="accordion" id="acc_Song">
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_addend">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_addend" 
+                              aria-expanded="false"
+                              aria-controls="addend"
+                            >
+                              +addend
+                            </button>
+                          </h2>
+                          <div id="c_addend" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_addend" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Adds this Song back to the end of the Queue! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+adde]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>addend</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_forward">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_forward" 
+                              aria-expanded="false"
+                              aria-controls="forward"
+                            >
+                              +forward
+                            </button>
+                          </h2>
+                          <div id="c_forward" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_forward" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Forwards for X Seconds <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+fwd]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>forward &lt;TimeinSec&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_grab">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_grab" 
+                              aria-expanded="false"
+                              aria-controls="grab"
+                            >
+                              +grab
+                            </button>
+                          </h2>
+                          <div id="c_grab" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_grab" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Jumps to a specific Position in the Song <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+take]</small>
+                            
+                            <small class="text-muted">[+steal]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>grab</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_lyrics">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_lyrics" 
+                              aria-expanded="false"
+                              aria-controls="lyrics"
+                            >
+                              +lyrics
+                            </button>
+                          </h2>
+                          <div id="c_lyrics" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_lyrics" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Sends the Song Lyrics <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+ly]</small>
+                            
+                            <small class="text-muted">[+songtext]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>lyrics</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_nowplaying">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_nowplaying" 
+                              aria-expanded="false"
+                              aria-controls="nowplaying"
+                            >
+                              +nowplaying
+                            </button>
+                          </h2>
+                          <div id="c_nowplaying" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_nowplaying" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Shows the current Playing Song <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+np]</small>
+                            
+                            <small class="text-muted">[+current]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>nowplaying</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_replay">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_replay" 
+                              aria-expanded="false"
+                              aria-controls="replay"
+                            >
+                              +replay
+                            </button>
+                          </h2>
+                          <div id="c_replay" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_replay" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Replays the current song! <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+restart]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>replay</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_rewind">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_rewind" 
+                              aria-expanded="false"
+                              aria-controls="rewind"
+                            >
+                              +rewind
+                            </button>
+                          </h2>
+                          <div id="c_rewind" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_rewind" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Rewinds for X Seconds <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+rwd]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>rewind &lt;TimeInSec&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="h_seek">
+                            <button class="accordion-button collapsed" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#c_seek" 
+                              aria-expanded="false"
+                              aria-controls="seek"
+                            >
+                              +seek
+                            </button>
+                          </h2>
+                          <div id="c_seek" 
+                            class="accordion-collapse collapse " 
+                            aria-labelledby="h_seek" 
+                            data-bs-parent="#acc_Song">
+                            <div class="accordion-body">
+                            <code>Mô tả : </code>Jumps to a specific Position in the Song <br>
+                            <code>Các cách gọi khác : </code>
+                            <small class="text-muted">[+sek]</small>
+                            <br>
+                            <code>Sử dụng : </code><small><kbd>seek &lt;TimeInSec&gt;</kbd></small><br>
+                            </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section id="audiofilters" class="audiofilters">
+        <h1 style="text-align: center;"> Bộ lọc âm thanh </h1>
+        <p style="font-style: italic;">Bạn có thể thêm Bộ lọc bằng cách sử dụng lệnh <b>applyfilter / filter / setfilter</b><br>
+        <span>Đôi khi phải mất tới 2 giây cho đến khi Bộ lọc được áp dụng!</span><br>
+        </p>
+        <!-- Command Menu -->
+
+        <div class="container px-lg-5" id="filters_menu">
+          <div class="row">
+            <div class="col-sm-3" id="category">
+              <div class="list-group" id="myList" role="tablist">
+                <a class="list-group-item list-group-item-action active"  data-bs-toggle="list" href="#filters" role="tab" aria-controls="Filters">Tất cả bộ lọc âm thanh</a>
+              </div>
+            </div>
+          <div class="col-sm-9">
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="filters" role="tabpanel" aria-labelledby="list-home-list">
+                <div class="accordion" id="acc_filters">
+                  
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_bassboost">
+                          <button class="accordion-button collapsed " 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_bassboost" 
+                            aria-expanded="true" 
+                            aria-controls="bassboost">
+                            <b>Bassboost</b>
+                          </button>
+                        </h2>
+                        <div id="c_bassboost" 
+                        class="accordion-collapse collapse " 
+                        aria-labelledby="h_bassboost" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>Cách sử dụng: </code><small class="text-muted"><kbd>niji!applyfilter | {prefix}applyfilter | @đề cập applyfilter &lt;bassboost&gt;</kbd></small><br>
+                          <code>Áp dụng filter <b>"bassboost"</b> hoặc tắt filter</code>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_nightcore">
+                          <button class="accordion-button collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_Nightcore" 
+                            aria-expanded="false" 
+                            aria-controls="Nightcore">
+                            <b>Nightcore</b>
+                          </button>
+                        </h2>
+                        <div id="c_nightcore" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="h_nightcore" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>FFmpeg-Arg: </code><small class="text-muted"><kbd>bass=g=8,dynaudnorm=f=200</kbd></small><br>
+                          <code>Áp dụng một <b>"lightbass"</b> Bộ lọc âm thanh</code>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_varpowave">
+                          <button class="accordion-button collapsed " 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_varpowave" 
+                            aria-expanded="false" 
+                            aria-controls="varpowave">
+                            <b>Varpowave</b>
+                          </button>
+                        </h2>
+                        <div id="c_varpowave" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="h_varpowave" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>Cách sử dụng: </code><small class="text-muted"><kbd>niji!applyfilter | {prefix}applyfilter | @đề cập applyfilter &lt;varpowave&gt;</kbd></small><br>
+                          <code>Áp dụng filter <b>"varpowave"</b> hoặc tắt filter</code>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_phaser">
+                          <button class="accordion-button collapsed " 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_phaser" 
+                            aria-expanded="false" 
+                            aria-controls="phaser">
+                            <b>Phaser</b>
+                          </button>
+                        </h2>
+                        <div id="c_phaser" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="h_phaser" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>Cách sử dụng: </code><small class="text-muted"><kbd>niji!applyfilter | {prefix}applyfilter | @đề cập applyfilter &lt;phaser&gt;</kbd></small><br>
+                          <code>Áp dụng filter <b>"phaser"</b> hoặc tắt filter</code>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_treble">
+                          <button class="accordion-button collapsed " 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_treble" 
+                            aria-expanded="false" 
+                            aria-controls="treble">
+                            <b>Treble</b>
+                          </button>
+                        </h2>
+                        <div id="c_treble" 
+                        class="accordion-collapse collapse " 
+                        aria-labelledby="h_treble" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>Cách sử dụng: </code><small class="text-muted"><kbd>niji!applyfilter | {prefix}applyfilter | @đề cập applyfilter &lt;treble&gt;</kbd></small><br>
+                          <code>Áp dụng filter <b>"treble"</b> hoặc tắt filter</code>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_normalizer">
+                          <button class="accordion-button collapsed " 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_normalizer" 
+                            aria-expanded="false" 
+                            aria-controls="normalizer">
+                            <b>Normalizer</b>
+                          </button>
+                        </h2>
+                        <div id="c_normalizer" 
+                        class="accordion-collapse collapse " 
+                        aria-labelledby="h_normalizer" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>Cách sử dụng: </code><small class="text-muted"><kbd>niji!applyfilter | {prefix}applyfilter | @đề cập applyfilter &lt;normalizer&gt;</kbd></small><br>
+                          <code>Áp dụng filter <b>"normalizer"</b> hoặc tắt filter</code>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="h_flanger">
+                          <button class="accordion-button collapsed " 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#c_flanger" 
+                            aria-expanded="false" 
+                            aria-controls="flanger">
+                            <b>Flanger</b>
+                          </button>
+                        </h2>
+                        <div id="c_flanger" 
+                        class="accordion-collapse collapse " 
+                        aria-labelledby="h_flanger" 
+                        data-bs-parent="#acc_filters">
+                          <div class="accordion-body">
+                          
+                          <code>Cách sử dụng: </code><small class="text-muted"><kbd>niji!applyfilter | {prefix}applyfilter | @đề cập applyfilter &lt;flanger&gt;</kbd></small><br>
+                          <code>Áp dụng filter <b>"flanger"</b> hoặc tắt filter</code>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+          </section>
+    
+
+      <!-- FOOTER -->
+      <section>
+        <div class="card-footer" style="margin-top:15%;text-align: center;color: #cf67b0;";>
+          <hr style="width: 75%;background-color: #FFFFFF!important;color: #FFFFFF!important;border: 5px solid #FFFFFF!important;border-radius:25px;margin-left: 12%;">
+          <h4 style="margin-top:5%;">
+            <img src="/hibikibanmai.png" style="width: 4%;margin-top: -0.5%;"> 
+          </h4>
+          <h5 style="text-align: center;">
+            <a href="https://hibikibanmai.nijigen.repl.co/" target="_blank" style="font-size: 12px; color: #888a9b!important;text-decoration: none;">&copy; 2021 Hibiki Ban Mai | All rights served.</a><br><br>
+            <a href="https://facebook.com/kobayashikenji.126" target="_blank" style="font-size: 20px; color: #ff52ee!important;text-decoration: none;">Được phát triển bởi <code>NJVW-Kiryu Coco#6803</code></a>
+          </h5>
+        </div>
+      </section>
+
+    </body>
+</html>

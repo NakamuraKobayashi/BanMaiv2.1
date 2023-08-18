@@ -1,0 +1,21 @@
+{
+    "chooseSet": "Choose the settings you want to set up?",
+    "type": "Type",
+    "cancel": "cancel",
+    "toStop": "to stop setting up",
+    "noResponse": "No response in time, stop setting up...",
+    "Cancel": "Stop setting up...!",
+    "invalidKey": "You did not provide a valid keyword.",
+    "chooseLevel": "Mention a channel to set Level Up message",
+    "chooseReport": "Mention a channel to set Report Channel",
+    "chooseModLog": "Mention Mod Log channel",
+    "chooseLogServer": "Mention a channel to set Server Log Message",
+    "noSet": "Don't mention Category or Voice Channel",
+    "textChannel": "Mention a text channel!",
+    "done": "Done",
+    "fromNowLevel": "From now, Ban Mai will send Level Up messages in",
+    "fromNowReport": "From now, Ban Mai will send Report messages in",
+    "fromNowModLog": "From now, Ban Mai will send Mod Log messages in",
+    "fromNowLogServer": "From now, Ban Mai will send Server Log messages in",
+    "logChannelUpdate": "Log Channel has been updated to"
+}

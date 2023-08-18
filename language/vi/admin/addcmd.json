@@ -1,0 +1,7 @@
+{
+    "noneResponse": "Bạn phải cung cấp commands phản hồi",
+    "noneResponseN": "addcmd <tên_commands> <commands_phản_hồi>",
+    "alreadyHave": "Tên lệnh này đã có trong lệnh tùy chỉnh của Server",
+    "added": "Đã thêm lệnh",
+    "addedN": "là một lệnh tùy chỉnh của Server"
+}
