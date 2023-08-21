@@ -299,7 +299,7 @@ async function setStatus(settings, status) {
   const enabled = status.toUpperCase() === "ON" ? true : false;
   settings.farewell.enabled = enabled;
   await settings.save();
-  return `Đã lưu thiết lập! Tin nhắn chia tay hiện đang ${status ? "enabled" : "disabled"}`;
+  return `Đã lưu thiết lập! Tin nhắn chia tay hiện đang ${status ? "BẬT" : "TẮT"}`;
 }
 
 async function setChannel(settings, channel) {
