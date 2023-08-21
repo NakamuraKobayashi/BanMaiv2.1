@@ -37,6 +37,7 @@ const parse = async (content, member, inviterData = {}) => {
     .replaceAll(/{server}/g, member.guild.name)
     .replaceAll(/{count}/g, member.guild.memberCount)
     .replaceAll(/{member:nick}/g, member.displayName)
+    .replaceAll(/{member:id}/g, member.id)
     .replaceAll(/{member:name}/g, member.user.username)
     .replaceAll(/{member:dis}/g, member.user.discriminator)
     .replaceAll(/{member:tag}/g, member.user.tag)

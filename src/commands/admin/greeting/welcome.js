@@ -299,7 +299,7 @@ async function setStatus(settings, status) {
   const enabled = status.toUpperCase() === "ON" ? true : false;
   settings.welcome.enabled = enabled;
   await settings.save();
-  return `Đã lưu thiết lập! Tin nhắn chào mừng hiện đang ${enabled ? "enabled" : "disabled"}`;
+  return `Đã lưu thiết lập! Tin nhắn chào mừng hiện đang ${enabled ? "BẬT" : "TẮT"}`;
 }
 
 async function setChannel(settings, channel) {

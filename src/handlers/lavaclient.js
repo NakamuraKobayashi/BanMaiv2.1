@@ -75,8 +75,14 @@ module.exports = (client) => {
   });
 
   lavaclient.on("nodeQueueFinish", async (_node, queue) => {
+    let timeoutClear = null;
     queue.data.channel.safeSend("Đã phát hết hàng đợi.");
-    await client.musicManager.destroyPlayer(queue.player.guildId).then(queue.player.disconnect());
+    if (timeoutClear !== null) {
+      setTimeout( async () => {
+        await client.musicManager.destroyPlayer(queue.player.guildId).then(queue.player.disconnect());
+        queue.data.channel.safeSend("Đã rời khỏi Voice!")
+      }, 120000);
+    }
   });
 
   return lavaclient;

@@ -6,25 +6,25 @@ const { ChannelType } = require("discord.js");
 module.exports = (type) => {
   switch (type) {
     case ChannelType.GuildText:
-      return "Guild Text";
+      return "Kênh Văn Bản";
     case ChannelType.GuildVoice:
-      return "Guild Voice";
+      return "Kênh Thoại";
     case ChannelType.GuildCategory:
-      return "Guild Category";
+      return "Danh Mục Kênh";
     case ChannelType.GuildAnnouncement:
-      return "Guild Announcement";
+      return "Kênh Thông Báo";
     case ChannelType.AnnouncementThread:
-      return "Guild Announcement Thread";
+      return "Kênh Chủ Đề Thông Báo";
     case ChannelType.PublicThread:
-      return "Guild Public Thread";
+      return "Kênh Chủ Đề Công Khai";
     case ChannelType.PrivateThread:
-      return "Guild Private Thread";
+      return "Kênh Chủ Đề Riêng Tư";
     case ChannelType.GuildStageVoice:
-      return "Guild Stage Voice";
+      return "Kênh Sân Khấu";
     case ChannelType.GuildDirectory:
-      return "Guild Directory";
+      return "Thư Mục";
     case ChannelType.GuildForum:
-      return "Guild Forum";
+      return "Forum";
     default:
       return "Unknown";
   }

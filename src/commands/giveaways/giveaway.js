@@ -359,7 +359,7 @@ async function runModalSetup({ member, channel, guild }, targetCh) {
         new ActionRowBuilder().addComponents(
           new TextInputBuilder()
             .setCustomId("host")
-            .setLabel("Tên người tổ chức Giveaway")
+            .setLabel("ID người tổ chức Giveaway")
             .setStyle(TextInputStyle.Short)
             .setRequired(false)
         ),
@@ -370,7 +370,7 @@ async function runModalSetup({ member, channel, guild }, targetCh) {
   // receive modal input
   const modal = await btnInteraction
     .awaitModalSubmit({
-      time: 1 * 60 * 1000,
+      time: 3 * 60 * 1000,
       filter: (m) => m.customId === "giveaway-modalSetup" && m.member.id === member.id && m.message.id === sentMsg.id,
     })
     .catch((ex) => {});
