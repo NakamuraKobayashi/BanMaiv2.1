@@ -79,12 +79,12 @@ module.exports = async (guild) => {
       },
       {
         name: `Tổng số kênh và danh mục [${totalChannels}]`,
-        value: `\`\`\`Danh mục: ${categories} | Văn bản: ${textChannels} | Kênh thoại: ${voiceChannels} | Kênh chủ đề: ${threadChannels}\`\`\``,
+        value: `\`\`\`Danh mục: ${categories}\nVăn bản: ${textChannels}\nKênh thoại: ${voiceChannels}\nKênh chủ đề: ${threadChannels}\`\`\``,
         inline: false,
       },
       {
-        name: `Vai trò [${rolesCount}]`,
-        value: `\`\`\`${rolesString}\`\`\``,
+        name: `Vai trò`,
+        value: `\`\`\`${rolesCount}\`\`\``, //rolesString
         inline: false,
       },
       {
@@ -99,7 +99,7 @@ module.exports = async (guild) => {
       },
       {
         name: `Ngày tạo`,
-        value: `\`\`\`<t:${parseInt(guild.createdTimestamp / 1000)}:R>\`\`\``,
+        value: `<t:${parseInt(guild.createdTimestamp / 1000)}:R>`,
         inline: false,
       }
     );
