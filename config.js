@@ -37,9 +37,9 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
-    port: "8080", // port to run the bot on
+    baseURL: "http://dash-hibikibanmai.kensobanto.tk", // base url
+    failureURL: "http://localhost:3000", // failure redirect url
+    port: "3000", // port to run the bot on
   },
 
   ECONOMY: {
@@ -62,7 +62,10 @@ module.exports = {
         host: "localhost",
         port: 80,
         password: "lol",
-        id: "Local Node",
+        retryAmount: 10,
+        retryDelay: 5000,
+        maximumRetries: 100,
+        id: "SONY-MC-57151",
         secure: false,
       },
     ],
