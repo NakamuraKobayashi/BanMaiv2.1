@@ -17,6 +17,7 @@ module.exports = {
   description: "phát nhạc từ youtube, soundcloud, spotify",
   category: "MUSIC",
   botPermissions: ["EmbedLinks"],
+  aliases: ["p"],
   command: {
     enabled: true,
     usage: "<tên bài hát>",
