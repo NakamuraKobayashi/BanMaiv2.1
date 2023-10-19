@@ -2,7 +2,6 @@ const { EmbedBuilder , ApplicationCommandOptionType } = require("discord.js");
 
 module.exports = {
   name: "qr",
-  aliases: ["qrcode", "qr-code"],
   cooldown: 5,
   category: "UTILITY",
   description: "Gửi lại ảnh QR cho text hoặc ảnh bạn gửi!",
@@ -10,6 +9,7 @@ module.exports = {
   command: {
     enabled: true,
     usage: "[URL]",
+    aliases: ["qrcode", "qr-code"],
     minArgsCount: 1,
   },
   slashCommand: {
