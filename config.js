@@ -3,7 +3,7 @@ module.exports = {
   SUPPORT_SERVER: "https://discord.gg/kUGFQEcTk7", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "h!", // Default prefix for the bot
+    DEFAULT_PREFIX: "beta!", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
