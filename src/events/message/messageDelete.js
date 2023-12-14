@@ -46,4 +46,16 @@ module.exports = async (client, message) => {
 
     logChannel.safeSend({ embeds: [embed] });
   }
+  
+  client.on("messageDelete", async (message) => {
+    if (!message.author || message.author.bot || !message.guild) return;
+    messageclient.snipes.set(message.channel.id, {
+      content: message.content,
+      author: message.author.tag,
+      name: message.attachments.first() ? message.attachments.array()[0].name: null,
+      image: message.attachments.first()
+        ? message.attachments.first().proxyURL
+        : null
+    });
+  })
 };

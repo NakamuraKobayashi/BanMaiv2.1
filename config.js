@@ -1,9 +1,9 @@
 module.exports = {
-  OWNER_IDS: ["579566400360808459"], // Bot owner ID's
+  OWNER_IDS: ["579566400360808459", "487597510559531009"], // Bot owner ID's
   SUPPORT_SERVER: "https://discord.gg/kUGFQEcTk7", // Your bot support server
   PREFIX_COMMANDS: {
-    ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "beta!", // Default prefix for the bot
+    ENABLED: false, // Enable/Disable prefix commands
+    DEFAULT_PREFIX: "c!", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -37,7 +37,7 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "http://dash-hibikibanmai.kensobanto.tk", // base url
+    baseURL: "http://localhost:3000", // base url
     failureURL: "http://localhost:3000", // failure redirect url
     port: "3000", // port to run the bot on
   },
@@ -79,7 +79,7 @@ module.exports = {
   },
 
   IMAGE: {
-    ENABLED: false,
+    ENABLED: true,
     BASE_API: "https://strangeapi.fun/api",
   },
 

@@ -14,16 +14,16 @@ module.exports = async (client, message) => {
     const logChannel = message.guild.channels.cache.get(settings.modlog_channel);
     if (!logChannel) return;
 
-    client.on("MessageDelete", message => {
+    client.on("messageDelete", message => {
         const image = message.attachments.first()
         ? message.attachments.first().proxyURL
         : null
-        if(message.channel.type !== "text" || message.author.bot) return;
         const DelMsg = EmbedBuilder()
             .setTitle("Tin nhắn bị xóa")
+            .setAuthor(`${message.author}`)
             .setColor("Yellow")
             .setDescription(`${message.content}` || `${image}`)
             .setFooter({ text: `Xóa lúc: ${message.createdAt}` });
-        logChannel.send({ embeds: [DelMsg] });
+        logChannel.safeSend({ embeds: [DelMsg] });
     })
 }

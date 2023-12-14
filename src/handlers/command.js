@@ -67,7 +67,7 @@ module.exports = {
     }
 
     try {
-      await cmd.messageRun(message, args, data);
+      await cmd.messageRun(message, args, data); 
     } catch (ex) {
       message.client.logger.error("messageRun", ex);
       message.safeReply("Đã xảy ra lỗi khi chạy lệnh này");

@@ -72,7 +72,7 @@ module.exports = {
         const server = servers[i];
         fields.push({
           name: server.name,
-          value: server.id,
+          value: server.memberCount + " members",
           inline: true,
         });
       }
