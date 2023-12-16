@@ -1,9 +1,0 @@
-{
-    "speaking": "Tớ đang nói, vui lòng thử lại sau",
-    "joinVoiceFirst": "Hãy vào voice trước rồi mới dùng được nhé bạn ưi :3!",
-    "missingPerms": "Tớ hông có đủ quyền để vào voice :< (Quyền thiếu: Kết nối , Nói)",
-    "cannotJoinVoice": "Tớ không vào được Voice này",
-    "missingArgument": "Bạn cần ít nhất 1 chữ đi kèm để sử dụng TTS",
-    "fullVoice": "Kênh đã đầy, tớ không thể vào được phòng đó :<",
-    "leaving": "Tớ đã rời kênh vì không còn được sử dụng!"
-}

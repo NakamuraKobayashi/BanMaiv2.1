@@ -1,8 +1,0 @@
-{
-    "no_voice": "No voice channel is provided or you have not joined any voice channel yet!",
-    "missing_perms": "I don't have \"Create Invite\" Permission of this server!",
-    "click": "Click this link",
-    "start": "to start play",
-    "in_voice": "in",
-    "error": "Failed to run activity"
-}

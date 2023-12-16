@@ -197,12 +197,7 @@ async function play({ member, guild, channel }, query) {
   if (!player?.connected) {
     player = guild.client.musicManager.createPlayer(guild.id);
     player.queue.data.channel = channel;
-    if (channel.isVoiceBased(false)) {
-      player.connect(member.voice.channel.id);
-      guild.members.me.voice.setSuppressed(false);
-    } else {
-      player.connect(member.voice.channel.id, { deafened: true });
-    }
+    player.connect(member.voice.channel.id, { deafened: true });
   }
 
   // do queue things

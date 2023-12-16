@@ -1,9 +1,0 @@
-{
-    "missingPerms": "Missing permission - [Send Attachfile]",
-    "firstTarget": "Who do you want to put below?",
-    "secondTarget": "Who do you want to put above?",
-    "cannotFindFirst": "The first user's data could not be found",
-    "cannotFindSecond": "The second user's data could not be found",
-    "error": "oh nyoo, an error occurred",
-    "tryAgain": "Please try again later!"
-}

@@ -1,8 +1,0 @@
-{
-    "server": "Mute Role in this server is",
-    "mentionRole": "Mention Role or Role ID!",
-    "MentionRole": "Mention a valid role or a valid role ID!",
-    "already": "This role is already Mute Role!",
-    "hasBeenSet": "Has been set as Mute Role!",
-    "error": "Error - `Missing Permission or invalid role!`"
-}

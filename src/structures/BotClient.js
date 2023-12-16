@@ -33,7 +33,7 @@ module.exports = class BotClient extends Client {
       allowedMentions: {
         repliedUser: true,
       },
-      restRequestTimeout: 20000,
+      restRequestTimeout: 60000,
     });
 
     this.wait = require("util").promisify(setTimeout); // await client.wait(1000) - Wait 1 second

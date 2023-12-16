@@ -1,9 +1,0 @@
-{
-    "notHavePerms": "You don't have permission to use this command!",
-    "noWordSpecify": "No word provide",
-    "eg": "Example",
-    "addWordEg": "add-word fuq",
-    "added": "Added a new word to the word in the bad word list",
-    "alreadyHave": "This word is already in the bad word list!",
-    "Error": "Error"
-}
